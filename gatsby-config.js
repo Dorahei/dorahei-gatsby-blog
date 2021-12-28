@@ -72,6 +72,7 @@ module.exports = {
         host: env.CONTENTFUL_HOST,
       },
     },
+    `gatsby-plugin-gatsby-cloud`
     // `gatsby-plugin-offline`,
   ],
 }
