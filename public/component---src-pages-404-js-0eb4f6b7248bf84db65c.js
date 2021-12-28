@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdorahei_gatsby_blog=self.webpackChunkdorahei_gatsby_blog||[]).push([[883],{9616:function(e,t,a){a.r(t);var n=a(7294),l=a(967),r=a(3751);t.default=function(e){var t=e.location;return n.createElement(l.Z,null,n.createElement(r.Z,{pagetitle:"ページが見つかりません",pagepath:t.pathname}),n.createElement("h1",{style:{padding:"20vh 0",textAlign:"center"}},"お探しのページが見つかりませんでした"))}}}]);
+//# sourceMappingURL=component---src-pages-404-js-0eb4f6b7248bf84db65c.js.map
