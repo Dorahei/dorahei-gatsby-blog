@@ -1,28 +1,17 @@
-exports.id = "component---src-pages-404-js";
-exports.ids = ["component---src-pages-404-js"];
+"use strict";
+exports.id = 883;
+exports.ids = [883];
 exports.modules = {
 
-/***/ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js ***!
-  \********************************************************************/
+/***/ 8947:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "icon": () => (/* binding */ icon),
-/* harmony export */   "noAuto": () => (/* binding */ noAuto),
-/* harmony export */   "config": () => (/* binding */ config),
-/* harmony export */   "toHtml": () => (/* binding */ toHtml),
-/* harmony export */   "layer": () => (/* binding */ layer),
-/* harmony export */   "text": () => (/* binding */ text),
-/* harmony export */   "counter": () => (/* binding */ counter),
-/* harmony export */   "library": () => (/* binding */ library),
-/* harmony export */   "dom": () => (/* binding */ dom),
-/* harmony export */   "parse": () => (/* binding */ parse),
-/* harmony export */   "findIconDefinition": () => (/* binding */ findIconDefinition)
+/* harmony export */   "qv": () => (/* binding */ icon),
+/* harmony export */   "vc": () => (/* binding */ config),
+/* harmony export */   "Qc": () => (/* binding */ parse)
 /* harmony export */ });
+/* unused harmony exports noAuto, toHtml, layer, text, counter, library, dom, findIconDefinition */
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -198,7 +187,7 @@ var MUTATION_APPROACH_ASYNC = 'async';
 var TAGNAMES_TO_SKIP_FOR_PSEUDOELEMENTS = ['HTML', 'HEAD', 'STYLE', 'SCRIPT'];
 var PRODUCTION = function () {
   try {
-    return "development" === 'production';
+    return "production" === 'production';
   } catch (e) {
     return false;
   }
@@ -2462,475 +2451,458 @@ var autoReplace = function autoReplace() {
 
 /***/ }),
 
-/***/ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js":
-/*!*********************************************************************!*\
-  !*** ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js ***!
-  \*********************************************************************/
+/***/ 7814:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "fab": () => (/* binding */ _iconsCache),
-/* harmony export */   "prefix": () => (/* binding */ prefix),
-/* harmony export */   "fa500px": () => (/* binding */ fa500px),
-/* harmony export */   "faAccessibleIcon": () => (/* binding */ faAccessibleIcon),
-/* harmony export */   "faAccusoft": () => (/* binding */ faAccusoft),
-/* harmony export */   "faAcquisitionsIncorporated": () => (/* binding */ faAcquisitionsIncorporated),
-/* harmony export */   "faAdn": () => (/* binding */ faAdn),
-/* harmony export */   "faAdversal": () => (/* binding */ faAdversal),
-/* harmony export */   "faAffiliatetheme": () => (/* binding */ faAffiliatetheme),
-/* harmony export */   "faAirbnb": () => (/* binding */ faAirbnb),
-/* harmony export */   "faAlgolia": () => (/* binding */ faAlgolia),
-/* harmony export */   "faAlipay": () => (/* binding */ faAlipay),
-/* harmony export */   "faAmazon": () => (/* binding */ faAmazon),
-/* harmony export */   "faAmazonPay": () => (/* binding */ faAmazonPay),
-/* harmony export */   "faAmilia": () => (/* binding */ faAmilia),
-/* harmony export */   "faAndroid": () => (/* binding */ faAndroid),
-/* harmony export */   "faAngellist": () => (/* binding */ faAngellist),
-/* harmony export */   "faAngrycreative": () => (/* binding */ faAngrycreative),
-/* harmony export */   "faAngular": () => (/* binding */ faAngular),
-/* harmony export */   "faAppStore": () => (/* binding */ faAppStore),
-/* harmony export */   "faAppStoreIos": () => (/* binding */ faAppStoreIos),
-/* harmony export */   "faApper": () => (/* binding */ faApper),
-/* harmony export */   "faApple": () => (/* binding */ faApple),
-/* harmony export */   "faApplePay": () => (/* binding */ faApplePay),
-/* harmony export */   "faArtstation": () => (/* binding */ faArtstation),
-/* harmony export */   "faAsymmetrik": () => (/* binding */ faAsymmetrik),
-/* harmony export */   "faAtlassian": () => (/* binding */ faAtlassian),
-/* harmony export */   "faAudible": () => (/* binding */ faAudible),
-/* harmony export */   "faAutoprefixer": () => (/* binding */ faAutoprefixer),
-/* harmony export */   "faAvianex": () => (/* binding */ faAvianex),
-/* harmony export */   "faAviato": () => (/* binding */ faAviato),
-/* harmony export */   "faAws": () => (/* binding */ faAws),
-/* harmony export */   "faBandcamp": () => (/* binding */ faBandcamp),
-/* harmony export */   "faBattleNet": () => (/* binding */ faBattleNet),
-/* harmony export */   "faBehance": () => (/* binding */ faBehance),
-/* harmony export */   "faBehanceSquare": () => (/* binding */ faBehanceSquare),
-/* harmony export */   "faBimobject": () => (/* binding */ faBimobject),
-/* harmony export */   "faBitbucket": () => (/* binding */ faBitbucket),
-/* harmony export */   "faBitcoin": () => (/* binding */ faBitcoin),
-/* harmony export */   "faBity": () => (/* binding */ faBity),
-/* harmony export */   "faBlackTie": () => (/* binding */ faBlackTie),
-/* harmony export */   "faBlackberry": () => (/* binding */ faBlackberry),
-/* harmony export */   "faBlogger": () => (/* binding */ faBlogger),
-/* harmony export */   "faBloggerB": () => (/* binding */ faBloggerB),
-/* harmony export */   "faBluetooth": () => (/* binding */ faBluetooth),
-/* harmony export */   "faBluetoothB": () => (/* binding */ faBluetoothB),
-/* harmony export */   "faBootstrap": () => (/* binding */ faBootstrap),
-/* harmony export */   "faBtc": () => (/* binding */ faBtc),
-/* harmony export */   "faBuffer": () => (/* binding */ faBuffer),
-/* harmony export */   "faBuromobelexperte": () => (/* binding */ faBuromobelexperte),
-/* harmony export */   "faBuyNLarge": () => (/* binding */ faBuyNLarge),
-/* harmony export */   "faBuysellads": () => (/* binding */ faBuysellads),
-/* harmony export */   "faCanadianMapleLeaf": () => (/* binding */ faCanadianMapleLeaf),
-/* harmony export */   "faCcAmazonPay": () => (/* binding */ faCcAmazonPay),
-/* harmony export */   "faCcAmex": () => (/* binding */ faCcAmex),
-/* harmony export */   "faCcApplePay": () => (/* binding */ faCcApplePay),
-/* harmony export */   "faCcDinersClub": () => (/* binding */ faCcDinersClub),
-/* harmony export */   "faCcDiscover": () => (/* binding */ faCcDiscover),
-/* harmony export */   "faCcJcb": () => (/* binding */ faCcJcb),
-/* harmony export */   "faCcMastercard": () => (/* binding */ faCcMastercard),
-/* harmony export */   "faCcPaypal": () => (/* binding */ faCcPaypal),
-/* harmony export */   "faCcStripe": () => (/* binding */ faCcStripe),
-/* harmony export */   "faCcVisa": () => (/* binding */ faCcVisa),
-/* harmony export */   "faCentercode": () => (/* binding */ faCentercode),
-/* harmony export */   "faCentos": () => (/* binding */ faCentos),
-/* harmony export */   "faChrome": () => (/* binding */ faChrome),
-/* harmony export */   "faChromecast": () => (/* binding */ faChromecast),
-/* harmony export */   "faCloudflare": () => (/* binding */ faCloudflare),
-/* harmony export */   "faCloudscale": () => (/* binding */ faCloudscale),
-/* harmony export */   "faCloudsmith": () => (/* binding */ faCloudsmith),
-/* harmony export */   "faCloudversify": () => (/* binding */ faCloudversify),
-/* harmony export */   "faCodepen": () => (/* binding */ faCodepen),
-/* harmony export */   "faCodiepie": () => (/* binding */ faCodiepie),
-/* harmony export */   "faConfluence": () => (/* binding */ faConfluence),
-/* harmony export */   "faConnectdevelop": () => (/* binding */ faConnectdevelop),
-/* harmony export */   "faContao": () => (/* binding */ faContao),
-/* harmony export */   "faCottonBureau": () => (/* binding */ faCottonBureau),
-/* harmony export */   "faCpanel": () => (/* binding */ faCpanel),
-/* harmony export */   "faCreativeCommons": () => (/* binding */ faCreativeCommons),
-/* harmony export */   "faCreativeCommonsBy": () => (/* binding */ faCreativeCommonsBy),
-/* harmony export */   "faCreativeCommonsNc": () => (/* binding */ faCreativeCommonsNc),
-/* harmony export */   "faCreativeCommonsNcEu": () => (/* binding */ faCreativeCommonsNcEu),
-/* harmony export */   "faCreativeCommonsNcJp": () => (/* binding */ faCreativeCommonsNcJp),
-/* harmony export */   "faCreativeCommonsNd": () => (/* binding */ faCreativeCommonsNd),
-/* harmony export */   "faCreativeCommonsPd": () => (/* binding */ faCreativeCommonsPd),
-/* harmony export */   "faCreativeCommonsPdAlt": () => (/* binding */ faCreativeCommonsPdAlt),
-/* harmony export */   "faCreativeCommonsRemix": () => (/* binding */ faCreativeCommonsRemix),
-/* harmony export */   "faCreativeCommonsSa": () => (/* binding */ faCreativeCommonsSa),
-/* harmony export */   "faCreativeCommonsSampling": () => (/* binding */ faCreativeCommonsSampling),
-/* harmony export */   "faCreativeCommonsSamplingPlus": () => (/* binding */ faCreativeCommonsSamplingPlus),
-/* harmony export */   "faCreativeCommonsShare": () => (/* binding */ faCreativeCommonsShare),
-/* harmony export */   "faCreativeCommonsZero": () => (/* binding */ faCreativeCommonsZero),
-/* harmony export */   "faCriticalRole": () => (/* binding */ faCriticalRole),
-/* harmony export */   "faCss3": () => (/* binding */ faCss3),
-/* harmony export */   "faCss3Alt": () => (/* binding */ faCss3Alt),
-/* harmony export */   "faCuttlefish": () => (/* binding */ faCuttlefish),
-/* harmony export */   "faDAndD": () => (/* binding */ faDAndD),
-/* harmony export */   "faDAndDBeyond": () => (/* binding */ faDAndDBeyond),
-/* harmony export */   "faDailymotion": () => (/* binding */ faDailymotion),
-/* harmony export */   "faDashcube": () => (/* binding */ faDashcube),
-/* harmony export */   "faDeezer": () => (/* binding */ faDeezer),
-/* harmony export */   "faDelicious": () => (/* binding */ faDelicious),
-/* harmony export */   "faDeploydog": () => (/* binding */ faDeploydog),
-/* harmony export */   "faDeskpro": () => (/* binding */ faDeskpro),
-/* harmony export */   "faDev": () => (/* binding */ faDev),
-/* harmony export */   "faDeviantart": () => (/* binding */ faDeviantart),
-/* harmony export */   "faDhl": () => (/* binding */ faDhl),
-/* harmony export */   "faDiaspora": () => (/* binding */ faDiaspora),
-/* harmony export */   "faDigg": () => (/* binding */ faDigg),
-/* harmony export */   "faDigitalOcean": () => (/* binding */ faDigitalOcean),
-/* harmony export */   "faDiscord": () => (/* binding */ faDiscord),
-/* harmony export */   "faDiscourse": () => (/* binding */ faDiscourse),
-/* harmony export */   "faDochub": () => (/* binding */ faDochub),
-/* harmony export */   "faDocker": () => (/* binding */ faDocker),
-/* harmony export */   "faDraft2digital": () => (/* binding */ faDraft2digital),
-/* harmony export */   "faDribbble": () => (/* binding */ faDribbble),
-/* harmony export */   "faDribbbleSquare": () => (/* binding */ faDribbbleSquare),
-/* harmony export */   "faDropbox": () => (/* binding */ faDropbox),
-/* harmony export */   "faDrupal": () => (/* binding */ faDrupal),
-/* harmony export */   "faDyalog": () => (/* binding */ faDyalog),
-/* harmony export */   "faEarlybirds": () => (/* binding */ faEarlybirds),
-/* harmony export */   "faEbay": () => (/* binding */ faEbay),
-/* harmony export */   "faEdge": () => (/* binding */ faEdge),
-/* harmony export */   "faEdgeLegacy": () => (/* binding */ faEdgeLegacy),
-/* harmony export */   "faElementor": () => (/* binding */ faElementor),
-/* harmony export */   "faEllo": () => (/* binding */ faEllo),
-/* harmony export */   "faEmber": () => (/* binding */ faEmber),
-/* harmony export */   "faEmpire": () => (/* binding */ faEmpire),
-/* harmony export */   "faEnvira": () => (/* binding */ faEnvira),
-/* harmony export */   "faErlang": () => (/* binding */ faErlang),
-/* harmony export */   "faEthereum": () => (/* binding */ faEthereum),
-/* harmony export */   "faEtsy": () => (/* binding */ faEtsy),
-/* harmony export */   "faEvernote": () => (/* binding */ faEvernote),
-/* harmony export */   "faExpeditedssl": () => (/* binding */ faExpeditedssl),
-/* harmony export */   "faFacebook": () => (/* binding */ faFacebook),
-/* harmony export */   "faFacebookF": () => (/* binding */ faFacebookF),
-/* harmony export */   "faFacebookMessenger": () => (/* binding */ faFacebookMessenger),
-/* harmony export */   "faFacebookSquare": () => (/* binding */ faFacebookSquare),
-/* harmony export */   "faFantasyFlightGames": () => (/* binding */ faFantasyFlightGames),
-/* harmony export */   "faFedex": () => (/* binding */ faFedex),
-/* harmony export */   "faFedora": () => (/* binding */ faFedora),
-/* harmony export */   "faFigma": () => (/* binding */ faFigma),
-/* harmony export */   "faFirefox": () => (/* binding */ faFirefox),
-/* harmony export */   "faFirefoxBrowser": () => (/* binding */ faFirefoxBrowser),
-/* harmony export */   "faFirstOrder": () => (/* binding */ faFirstOrder),
-/* harmony export */   "faFirstOrderAlt": () => (/* binding */ faFirstOrderAlt),
-/* harmony export */   "faFirstdraft": () => (/* binding */ faFirstdraft),
-/* harmony export */   "faFlickr": () => (/* binding */ faFlickr),
-/* harmony export */   "faFlipboard": () => (/* binding */ faFlipboard),
-/* harmony export */   "faFly": () => (/* binding */ faFly),
-/* harmony export */   "faFontAwesome": () => (/* binding */ faFontAwesome),
-/* harmony export */   "faFontAwesomeAlt": () => (/* binding */ faFontAwesomeAlt),
-/* harmony export */   "faFontAwesomeFlag": () => (/* binding */ faFontAwesomeFlag),
-/* harmony export */   "faFontAwesomeLogoFull": () => (/* binding */ faFontAwesomeLogoFull),
-/* harmony export */   "faFonticons": () => (/* binding */ faFonticons),
-/* harmony export */   "faFonticonsFi": () => (/* binding */ faFonticonsFi),
-/* harmony export */   "faFortAwesome": () => (/* binding */ faFortAwesome),
-/* harmony export */   "faFortAwesomeAlt": () => (/* binding */ faFortAwesomeAlt),
-/* harmony export */   "faForumbee": () => (/* binding */ faForumbee),
-/* harmony export */   "faFoursquare": () => (/* binding */ faFoursquare),
-/* harmony export */   "faFreeCodeCamp": () => (/* binding */ faFreeCodeCamp),
-/* harmony export */   "faFreebsd": () => (/* binding */ faFreebsd),
-/* harmony export */   "faFulcrum": () => (/* binding */ faFulcrum),
-/* harmony export */   "faGalacticRepublic": () => (/* binding */ faGalacticRepublic),
-/* harmony export */   "faGalacticSenate": () => (/* binding */ faGalacticSenate),
-/* harmony export */   "faGetPocket": () => (/* binding */ faGetPocket),
-/* harmony export */   "faGg": () => (/* binding */ faGg),
-/* harmony export */   "faGgCircle": () => (/* binding */ faGgCircle),
-/* harmony export */   "faGit": () => (/* binding */ faGit),
-/* harmony export */   "faGitAlt": () => (/* binding */ faGitAlt),
-/* harmony export */   "faGitSquare": () => (/* binding */ faGitSquare),
-/* harmony export */   "faGithub": () => (/* binding */ faGithub),
-/* harmony export */   "faGithubAlt": () => (/* binding */ faGithubAlt),
-/* harmony export */   "faGithubSquare": () => (/* binding */ faGithubSquare),
-/* harmony export */   "faGitkraken": () => (/* binding */ faGitkraken),
-/* harmony export */   "faGitlab": () => (/* binding */ faGitlab),
-/* harmony export */   "faGitter": () => (/* binding */ faGitter),
-/* harmony export */   "faGlide": () => (/* binding */ faGlide),
-/* harmony export */   "faGlideG": () => (/* binding */ faGlideG),
-/* harmony export */   "faGofore": () => (/* binding */ faGofore),
-/* harmony export */   "faGoodreads": () => (/* binding */ faGoodreads),
-/* harmony export */   "faGoodreadsG": () => (/* binding */ faGoodreadsG),
-/* harmony export */   "faGoogle": () => (/* binding */ faGoogle),
-/* harmony export */   "faGoogleDrive": () => (/* binding */ faGoogleDrive),
-/* harmony export */   "faGooglePay": () => (/* binding */ faGooglePay),
-/* harmony export */   "faGooglePlay": () => (/* binding */ faGooglePlay),
-/* harmony export */   "faGooglePlus": () => (/* binding */ faGooglePlus),
-/* harmony export */   "faGooglePlusG": () => (/* binding */ faGooglePlusG),
-/* harmony export */   "faGooglePlusSquare": () => (/* binding */ faGooglePlusSquare),
-/* harmony export */   "faGoogleWallet": () => (/* binding */ faGoogleWallet),
-/* harmony export */   "faGratipay": () => (/* binding */ faGratipay),
-/* harmony export */   "faGrav": () => (/* binding */ faGrav),
-/* harmony export */   "faGripfire": () => (/* binding */ faGripfire),
-/* harmony export */   "faGrunt": () => (/* binding */ faGrunt),
-/* harmony export */   "faGuilded": () => (/* binding */ faGuilded),
-/* harmony export */   "faGulp": () => (/* binding */ faGulp),
-/* harmony export */   "faHackerNews": () => (/* binding */ faHackerNews),
-/* harmony export */   "faHackerNewsSquare": () => (/* binding */ faHackerNewsSquare),
-/* harmony export */   "faHackerrank": () => (/* binding */ faHackerrank),
-/* harmony export */   "faHips": () => (/* binding */ faHips),
-/* harmony export */   "faHireAHelper": () => (/* binding */ faHireAHelper),
-/* harmony export */   "faHive": () => (/* binding */ faHive),
-/* harmony export */   "faHooli": () => (/* binding */ faHooli),
-/* harmony export */   "faHornbill": () => (/* binding */ faHornbill),
-/* harmony export */   "faHotjar": () => (/* binding */ faHotjar),
-/* harmony export */   "faHouzz": () => (/* binding */ faHouzz),
-/* harmony export */   "faHtml5": () => (/* binding */ faHtml5),
-/* harmony export */   "faHubspot": () => (/* binding */ faHubspot),
-/* harmony export */   "faIdeal": () => (/* binding */ faIdeal),
-/* harmony export */   "faImdb": () => (/* binding */ faImdb),
-/* harmony export */   "faInnosoft": () => (/* binding */ faInnosoft),
-/* harmony export */   "faInstagram": () => (/* binding */ faInstagram),
-/* harmony export */   "faInstagramSquare": () => (/* binding */ faInstagramSquare),
-/* harmony export */   "faInstalod": () => (/* binding */ faInstalod),
-/* harmony export */   "faIntercom": () => (/* binding */ faIntercom),
-/* harmony export */   "faInternetExplorer": () => (/* binding */ faInternetExplorer),
-/* harmony export */   "faInvision": () => (/* binding */ faInvision),
-/* harmony export */   "faIoxhost": () => (/* binding */ faIoxhost),
-/* harmony export */   "faItchIo": () => (/* binding */ faItchIo),
-/* harmony export */   "faItunes": () => (/* binding */ faItunes),
-/* harmony export */   "faItunesNote": () => (/* binding */ faItunesNote),
-/* harmony export */   "faJava": () => (/* binding */ faJava),
-/* harmony export */   "faJediOrder": () => (/* binding */ faJediOrder),
-/* harmony export */   "faJenkins": () => (/* binding */ faJenkins),
-/* harmony export */   "faJira": () => (/* binding */ faJira),
-/* harmony export */   "faJoget": () => (/* binding */ faJoget),
-/* harmony export */   "faJoomla": () => (/* binding */ faJoomla),
-/* harmony export */   "faJs": () => (/* binding */ faJs),
-/* harmony export */   "faJsSquare": () => (/* binding */ faJsSquare),
-/* harmony export */   "faJsfiddle": () => (/* binding */ faJsfiddle),
-/* harmony export */   "faKaggle": () => (/* binding */ faKaggle),
-/* harmony export */   "faKeybase": () => (/* binding */ faKeybase),
-/* harmony export */   "faKeycdn": () => (/* binding */ faKeycdn),
-/* harmony export */   "faKickstarter": () => (/* binding */ faKickstarter),
-/* harmony export */   "faKickstarterK": () => (/* binding */ faKickstarterK),
-/* harmony export */   "faKorvue": () => (/* binding */ faKorvue),
-/* harmony export */   "faLaravel": () => (/* binding */ faLaravel),
-/* harmony export */   "faLastfm": () => (/* binding */ faLastfm),
-/* harmony export */   "faLastfmSquare": () => (/* binding */ faLastfmSquare),
-/* harmony export */   "faLeanpub": () => (/* binding */ faLeanpub),
-/* harmony export */   "faLess": () => (/* binding */ faLess),
-/* harmony export */   "faLine": () => (/* binding */ faLine),
-/* harmony export */   "faLinkedin": () => (/* binding */ faLinkedin),
-/* harmony export */   "faLinkedinIn": () => (/* binding */ faLinkedinIn),
-/* harmony export */   "faLinode": () => (/* binding */ faLinode),
-/* harmony export */   "faLinux": () => (/* binding */ faLinux),
-/* harmony export */   "faLyft": () => (/* binding */ faLyft),
-/* harmony export */   "faMagento": () => (/* binding */ faMagento),
-/* harmony export */   "faMailchimp": () => (/* binding */ faMailchimp),
-/* harmony export */   "faMandalorian": () => (/* binding */ faMandalorian),
-/* harmony export */   "faMarkdown": () => (/* binding */ faMarkdown),
-/* harmony export */   "faMastodon": () => (/* binding */ faMastodon),
-/* harmony export */   "faMaxcdn": () => (/* binding */ faMaxcdn),
-/* harmony export */   "faMdb": () => (/* binding */ faMdb),
-/* harmony export */   "faMedapps": () => (/* binding */ faMedapps),
-/* harmony export */   "faMedium": () => (/* binding */ faMedium),
-/* harmony export */   "faMediumM": () => (/* binding */ faMediumM),
-/* harmony export */   "faMedrt": () => (/* binding */ faMedrt),
-/* harmony export */   "faMeetup": () => (/* binding */ faMeetup),
-/* harmony export */   "faMegaport": () => (/* binding */ faMegaport),
-/* harmony export */   "faMendeley": () => (/* binding */ faMendeley),
-/* harmony export */   "faMicroblog": () => (/* binding */ faMicroblog),
-/* harmony export */   "faMicrosoft": () => (/* binding */ faMicrosoft),
-/* harmony export */   "faMix": () => (/* binding */ faMix),
-/* harmony export */   "faMixcloud": () => (/* binding */ faMixcloud),
-/* harmony export */   "faMixer": () => (/* binding */ faMixer),
-/* harmony export */   "faMizuni": () => (/* binding */ faMizuni),
-/* harmony export */   "faModx": () => (/* binding */ faModx),
-/* harmony export */   "faMonero": () => (/* binding */ faMonero),
-/* harmony export */   "faNapster": () => (/* binding */ faNapster),
-/* harmony export */   "faNeos": () => (/* binding */ faNeos),
-/* harmony export */   "faNimblr": () => (/* binding */ faNimblr),
-/* harmony export */   "faNode": () => (/* binding */ faNode),
-/* harmony export */   "faNodeJs": () => (/* binding */ faNodeJs),
-/* harmony export */   "faNpm": () => (/* binding */ faNpm),
-/* harmony export */   "faNs8": () => (/* binding */ faNs8),
-/* harmony export */   "faNutritionix": () => (/* binding */ faNutritionix),
-/* harmony export */   "faOctopusDeploy": () => (/* binding */ faOctopusDeploy),
-/* harmony export */   "faOdnoklassniki": () => (/* binding */ faOdnoklassniki),
-/* harmony export */   "faOdnoklassnikiSquare": () => (/* binding */ faOdnoklassnikiSquare),
-/* harmony export */   "faOldRepublic": () => (/* binding */ faOldRepublic),
-/* harmony export */   "faOpencart": () => (/* binding */ faOpencart),
-/* harmony export */   "faOpenid": () => (/* binding */ faOpenid),
-/* harmony export */   "faOpera": () => (/* binding */ faOpera),
-/* harmony export */   "faOptinMonster": () => (/* binding */ faOptinMonster),
-/* harmony export */   "faOrcid": () => (/* binding */ faOrcid),
-/* harmony export */   "faOsi": () => (/* binding */ faOsi),
-/* harmony export */   "faPage4": () => (/* binding */ faPage4),
-/* harmony export */   "faPagelines": () => (/* binding */ faPagelines),
-/* harmony export */   "faPalfed": () => (/* binding */ faPalfed),
-/* harmony export */   "faPatreon": () => (/* binding */ faPatreon),
-/* harmony export */   "faPaypal": () => (/* binding */ faPaypal),
-/* harmony export */   "faPennyArcade": () => (/* binding */ faPennyArcade),
-/* harmony export */   "faPerbyte": () => (/* binding */ faPerbyte),
-/* harmony export */   "faPeriscope": () => (/* binding */ faPeriscope),
-/* harmony export */   "faPhabricator": () => (/* binding */ faPhabricator),
-/* harmony export */   "faPhoenixFramework": () => (/* binding */ faPhoenixFramework),
-/* harmony export */   "faPhoenixSquadron": () => (/* binding */ faPhoenixSquadron),
-/* harmony export */   "faPhp": () => (/* binding */ faPhp),
-/* harmony export */   "faPiedPiper": () => (/* binding */ faPiedPiper),
-/* harmony export */   "faPiedPiperAlt": () => (/* binding */ faPiedPiperAlt),
-/* harmony export */   "faPiedPiperHat": () => (/* binding */ faPiedPiperHat),
-/* harmony export */   "faPiedPiperPp": () => (/* binding */ faPiedPiperPp),
-/* harmony export */   "faPiedPiperSquare": () => (/* binding */ faPiedPiperSquare),
-/* harmony export */   "faPinterest": () => (/* binding */ faPinterest),
-/* harmony export */   "faPinterestP": () => (/* binding */ faPinterestP),
-/* harmony export */   "faPinterestSquare": () => (/* binding */ faPinterestSquare),
-/* harmony export */   "faPlaystation": () => (/* binding */ faPlaystation),
-/* harmony export */   "faProductHunt": () => (/* binding */ faProductHunt),
-/* harmony export */   "faPushed": () => (/* binding */ faPushed),
-/* harmony export */   "faPython": () => (/* binding */ faPython),
-/* harmony export */   "faQq": () => (/* binding */ faQq),
-/* harmony export */   "faQuinscape": () => (/* binding */ faQuinscape),
-/* harmony export */   "faQuora": () => (/* binding */ faQuora),
-/* harmony export */   "faRProject": () => (/* binding */ faRProject),
-/* harmony export */   "faRaspberryPi": () => (/* binding */ faRaspberryPi),
-/* harmony export */   "faRavelry": () => (/* binding */ faRavelry),
-/* harmony export */   "faReact": () => (/* binding */ faReact),
-/* harmony export */   "faReacteurope": () => (/* binding */ faReacteurope),
-/* harmony export */   "faReadme": () => (/* binding */ faReadme),
-/* harmony export */   "faRebel": () => (/* binding */ faRebel),
-/* harmony export */   "faRedRiver": () => (/* binding */ faRedRiver),
-/* harmony export */   "faReddit": () => (/* binding */ faReddit),
-/* harmony export */   "faRedditAlien": () => (/* binding */ faRedditAlien),
-/* harmony export */   "faRedditSquare": () => (/* binding */ faRedditSquare),
-/* harmony export */   "faRedhat": () => (/* binding */ faRedhat),
-/* harmony export */   "faRenren": () => (/* binding */ faRenren),
-/* harmony export */   "faReplyd": () => (/* binding */ faReplyd),
-/* harmony export */   "faResearchgate": () => (/* binding */ faResearchgate),
-/* harmony export */   "faResolving": () => (/* binding */ faResolving),
-/* harmony export */   "faRev": () => (/* binding */ faRev),
-/* harmony export */   "faRocketchat": () => (/* binding */ faRocketchat),
-/* harmony export */   "faRockrms": () => (/* binding */ faRockrms),
-/* harmony export */   "faRust": () => (/* binding */ faRust),
-/* harmony export */   "faSafari": () => (/* binding */ faSafari),
-/* harmony export */   "faSalesforce": () => (/* binding */ faSalesforce),
-/* harmony export */   "faSass": () => (/* binding */ faSass),
-/* harmony export */   "faSchlix": () => (/* binding */ faSchlix),
-/* harmony export */   "faScribd": () => (/* binding */ faScribd),
-/* harmony export */   "faSearchengin": () => (/* binding */ faSearchengin),
-/* harmony export */   "faSellcast": () => (/* binding */ faSellcast),
-/* harmony export */   "faSellsy": () => (/* binding */ faSellsy),
-/* harmony export */   "faServicestack": () => (/* binding */ faServicestack),
-/* harmony export */   "faShirtsinbulk": () => (/* binding */ faShirtsinbulk),
-/* harmony export */   "faShopify": () => (/* binding */ faShopify),
-/* harmony export */   "faShopware": () => (/* binding */ faShopware),
-/* harmony export */   "faSimplybuilt": () => (/* binding */ faSimplybuilt),
-/* harmony export */   "faSistrix": () => (/* binding */ faSistrix),
-/* harmony export */   "faSith": () => (/* binding */ faSith),
-/* harmony export */   "faSketch": () => (/* binding */ faSketch),
-/* harmony export */   "faSkyatlas": () => (/* binding */ faSkyatlas),
-/* harmony export */   "faSkype": () => (/* binding */ faSkype),
-/* harmony export */   "faSlack": () => (/* binding */ faSlack),
-/* harmony export */   "faSlackHash": () => (/* binding */ faSlackHash),
-/* harmony export */   "faSlideshare": () => (/* binding */ faSlideshare),
-/* harmony export */   "faSnapchat": () => (/* binding */ faSnapchat),
-/* harmony export */   "faSnapchatGhost": () => (/* binding */ faSnapchatGhost),
-/* harmony export */   "faSnapchatSquare": () => (/* binding */ faSnapchatSquare),
-/* harmony export */   "faSoundcloud": () => (/* binding */ faSoundcloud),
-/* harmony export */   "faSourcetree": () => (/* binding */ faSourcetree),
-/* harmony export */   "faSpeakap": () => (/* binding */ faSpeakap),
-/* harmony export */   "faSpeakerDeck": () => (/* binding */ faSpeakerDeck),
-/* harmony export */   "faSpotify": () => (/* binding */ faSpotify),
-/* harmony export */   "faSquarespace": () => (/* binding */ faSquarespace),
-/* harmony export */   "faStackExchange": () => (/* binding */ faStackExchange),
-/* harmony export */   "faStackOverflow": () => (/* binding */ faStackOverflow),
-/* harmony export */   "faStackpath": () => (/* binding */ faStackpath),
-/* harmony export */   "faStaylinked": () => (/* binding */ faStaylinked),
-/* harmony export */   "faSteam": () => (/* binding */ faSteam),
-/* harmony export */   "faSteamSquare": () => (/* binding */ faSteamSquare),
-/* harmony export */   "faSteamSymbol": () => (/* binding */ faSteamSymbol),
-/* harmony export */   "faStickerMule": () => (/* binding */ faStickerMule),
-/* harmony export */   "faStrava": () => (/* binding */ faStrava),
-/* harmony export */   "faStripe": () => (/* binding */ faStripe),
-/* harmony export */   "faStripeS": () => (/* binding */ faStripeS),
-/* harmony export */   "faStudiovinari": () => (/* binding */ faStudiovinari),
-/* harmony export */   "faStumbleupon": () => (/* binding */ faStumbleupon),
-/* harmony export */   "faStumbleuponCircle": () => (/* binding */ faStumbleuponCircle),
-/* harmony export */   "faSuperpowers": () => (/* binding */ faSuperpowers),
-/* harmony export */   "faSupple": () => (/* binding */ faSupple),
-/* harmony export */   "faSuse": () => (/* binding */ faSuse),
-/* harmony export */   "faSwift": () => (/* binding */ faSwift),
-/* harmony export */   "faSymfony": () => (/* binding */ faSymfony),
-/* harmony export */   "faTeamspeak": () => (/* binding */ faTeamspeak),
-/* harmony export */   "faTelegram": () => (/* binding */ faTelegram),
-/* harmony export */   "faTelegramPlane": () => (/* binding */ faTelegramPlane),
-/* harmony export */   "faTencentWeibo": () => (/* binding */ faTencentWeibo),
-/* harmony export */   "faTheRedYeti": () => (/* binding */ faTheRedYeti),
-/* harmony export */   "faThemeco": () => (/* binding */ faThemeco),
-/* harmony export */   "faThemeisle": () => (/* binding */ faThemeisle),
-/* harmony export */   "faThinkPeaks": () => (/* binding */ faThinkPeaks),
-/* harmony export */   "faTiktok": () => (/* binding */ faTiktok),
-/* harmony export */   "faTradeFederation": () => (/* binding */ faTradeFederation),
-/* harmony export */   "faTrello": () => (/* binding */ faTrello),
-/* harmony export */   "faTumblr": () => (/* binding */ faTumblr),
-/* harmony export */   "faTumblrSquare": () => (/* binding */ faTumblrSquare),
-/* harmony export */   "faTwitch": () => (/* binding */ faTwitch),
-/* harmony export */   "faTwitter": () => (/* binding */ faTwitter),
-/* harmony export */   "faTwitterSquare": () => (/* binding */ faTwitterSquare),
-/* harmony export */   "faTypo3": () => (/* binding */ faTypo3),
-/* harmony export */   "faUber": () => (/* binding */ faUber),
-/* harmony export */   "faUbuntu": () => (/* binding */ faUbuntu),
-/* harmony export */   "faUikit": () => (/* binding */ faUikit),
-/* harmony export */   "faUmbraco": () => (/* binding */ faUmbraco),
-/* harmony export */   "faUncharted": () => (/* binding */ faUncharted),
-/* harmony export */   "faUniregistry": () => (/* binding */ faUniregistry),
-/* harmony export */   "faUnity": () => (/* binding */ faUnity),
-/* harmony export */   "faUnsplash": () => (/* binding */ faUnsplash),
-/* harmony export */   "faUntappd": () => (/* binding */ faUntappd),
-/* harmony export */   "faUps": () => (/* binding */ faUps),
-/* harmony export */   "faUsb": () => (/* binding */ faUsb),
-/* harmony export */   "faUsps": () => (/* binding */ faUsps),
-/* harmony export */   "faUssunnah": () => (/* binding */ faUssunnah),
-/* harmony export */   "faVaadin": () => (/* binding */ faVaadin),
-/* harmony export */   "faViacoin": () => (/* binding */ faViacoin),
-/* harmony export */   "faViadeo": () => (/* binding */ faViadeo),
-/* harmony export */   "faViadeoSquare": () => (/* binding */ faViadeoSquare),
-/* harmony export */   "faViber": () => (/* binding */ faViber),
-/* harmony export */   "faVimeo": () => (/* binding */ faVimeo),
-/* harmony export */   "faVimeoSquare": () => (/* binding */ faVimeoSquare),
-/* harmony export */   "faVimeoV": () => (/* binding */ faVimeoV),
-/* harmony export */   "faVine": () => (/* binding */ faVine),
-/* harmony export */   "faVk": () => (/* binding */ faVk),
-/* harmony export */   "faVnv": () => (/* binding */ faVnv),
-/* harmony export */   "faVuejs": () => (/* binding */ faVuejs),
-/* harmony export */   "faWatchmanMonitoring": () => (/* binding */ faWatchmanMonitoring),
-/* harmony export */   "faWaze": () => (/* binding */ faWaze),
-/* harmony export */   "faWeebly": () => (/* binding */ faWeebly),
-/* harmony export */   "faWeibo": () => (/* binding */ faWeibo),
-/* harmony export */   "faWeixin": () => (/* binding */ faWeixin),
-/* harmony export */   "faWhatsapp": () => (/* binding */ faWhatsapp),
-/* harmony export */   "faWhatsappSquare": () => (/* binding */ faWhatsappSquare),
-/* harmony export */   "faWhmcs": () => (/* binding */ faWhmcs),
-/* harmony export */   "faWikipediaW": () => (/* binding */ faWikipediaW),
-/* harmony export */   "faWindows": () => (/* binding */ faWindows),
-/* harmony export */   "faWix": () => (/* binding */ faWix),
-/* harmony export */   "faWizardsOfTheCoast": () => (/* binding */ faWizardsOfTheCoast),
-/* harmony export */   "faWodu": () => (/* binding */ faWodu),
-/* harmony export */   "faWolfPackBattalion": () => (/* binding */ faWolfPackBattalion),
-/* harmony export */   "faWordpress": () => (/* binding */ faWordpress),
-/* harmony export */   "faWordpressSimple": () => (/* binding */ faWordpressSimple),
-/* harmony export */   "faWpbeginner": () => (/* binding */ faWpbeginner),
-/* harmony export */   "faWpexplorer": () => (/* binding */ faWpexplorer),
-/* harmony export */   "faWpforms": () => (/* binding */ faWpforms),
-/* harmony export */   "faWpressr": () => (/* binding */ faWpressr),
-/* harmony export */   "faXbox": () => (/* binding */ faXbox),
-/* harmony export */   "faXing": () => (/* binding */ faXing),
-/* harmony export */   "faXingSquare": () => (/* binding */ faXingSquare),
-/* harmony export */   "faYCombinator": () => (/* binding */ faYCombinator),
-/* harmony export */   "faYahoo": () => (/* binding */ faYahoo),
-/* harmony export */   "faYammer": () => (/* binding */ faYammer),
-/* harmony export */   "faYandex": () => (/* binding */ faYandex),
-/* harmony export */   "faYandexInternational": () => (/* binding */ faYandexInternational),
-/* harmony export */   "faYarn": () => (/* binding */ faYarn),
-/* harmony export */   "faYelp": () => (/* binding */ faYelp),
-/* harmony export */   "faYoast": () => (/* binding */ faYoast),
-/* harmony export */   "faYoutube": () => (/* binding */ faYoutube),
-/* harmony export */   "faYoutubeSquare": () => (/* binding */ faYoutubeSquare),
-/* harmony export */   "faZhihu": () => (/* binding */ faZhihu)
+/* harmony export */   "G": () => (/* binding */ FontAwesomeIcon)
 /* harmony export */ });
+/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(8947);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5697);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(9279);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+
+function _typeof(obj) {
+  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
+    _typeof = function (obj) {
+      return typeof obj;
+    };
+  } else {
+    _typeof = function (obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
+    };
+  }
+
+  return _typeof(obj);
+}
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    Object.defineProperty(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
+}
+
+function ownKeys(object, enumerableOnly) {
+  var keys = Object.keys(object);
+
+  if (Object.getOwnPropertySymbols) {
+    var symbols = Object.getOwnPropertySymbols(object);
+    if (enumerableOnly) symbols = symbols.filter(function (sym) {
+      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
+    });
+    keys.push.apply(keys, symbols);
+  }
+
+  return keys;
+}
+
+function _objectSpread2(target) {
+  for (var i = 1; i < arguments.length; i++) {
+    var source = arguments[i] != null ? arguments[i] : {};
+
+    if (i % 2) {
+      ownKeys(Object(source), true).forEach(function (key) {
+        _defineProperty(target, key, source[key]);
+      });
+    } else if (Object.getOwnPropertyDescriptors) {
+      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
+    } else {
+      ownKeys(Object(source)).forEach(function (key) {
+        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
+      });
+    }
+  }
+
+  return target;
+}
+
+function _objectWithoutPropertiesLoose(source, excluded) {
+  if (source == null) return {};
+  var target = {};
+  var sourceKeys = Object.keys(source);
+  var key, i;
+
+  for (i = 0; i < sourceKeys.length; i++) {
+    key = sourceKeys[i];
+    if (excluded.indexOf(key) >= 0) continue;
+    target[key] = source[key];
+  }
+
+  return target;
+}
+
+function _objectWithoutProperties(source, excluded) {
+  if (source == null) return {};
+
+  var target = _objectWithoutPropertiesLoose(source, excluded);
+
+  var key, i;
+
+  if (Object.getOwnPropertySymbols) {
+    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
+
+    for (i = 0; i < sourceSymbolKeys.length; i++) {
+      key = sourceSymbolKeys[i];
+      if (excluded.indexOf(key) >= 0) continue;
+      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
+      target[key] = source[key];
+    }
+  }
+
+  return target;
+}
+
+function _toConsumableArray(arr) {
+  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
+}
+
+function _arrayWithoutHoles(arr) {
+  if (Array.isArray(arr)) {
+    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
+
+    return arr2;
+  }
+}
+
+function _iterableToArray(iter) {
+  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
+}
+
+function _nonIterableSpread() {
+  throw new TypeError("Invalid attempt to spread non-iterable instance");
+}
+
+// Get CSS class list from a props object
+function classList(props) {
+  var _classes;
+
+  var spin = props.spin,
+      pulse = props.pulse,
+      fixedWidth = props.fixedWidth,
+      inverse = props.inverse,
+      border = props.border,
+      listItem = props.listItem,
+      flip = props.flip,
+      size = props.size,
+      rotation = props.rotation,
+      pull = props.pull; // map of CSS class names to properties
+
+  var classes = (_classes = {
+    'fa-spin': spin,
+    'fa-pulse': pulse,
+    'fa-fw': fixedWidth,
+    'fa-inverse': inverse,
+    'fa-border': border,
+    'fa-li': listItem,
+    'fa-flip-horizontal': flip === 'horizontal' || flip === 'both',
+    'fa-flip-vertical': flip === 'vertical' || flip === 'both'
+  }, _defineProperty(_classes, "fa-".concat(size), typeof size !== 'undefined' && size !== null), _defineProperty(_classes, "fa-rotate-".concat(rotation), typeof rotation !== 'undefined' && rotation !== null && rotation !== 0), _defineProperty(_classes, "fa-pull-".concat(pull), typeof pull !== 'undefined' && pull !== null), _defineProperty(_classes, 'fa-swap-opacity', props.swapOpacity), _classes); // map over all the keys in the classes object
+  // return an array of the keys where the value for the key is not null
+
+  return Object.keys(classes).map(function (key) {
+    return classes[key] ? key : null;
+  }).filter(function (key) {
+    return key;
+  });
+}
+
+// Camelize taken from humps
+// humps is copyright © 2012+ Dom Christie
+// Released under the MIT license.
+// Performant way to determine if object coerces to a number
+function _isNumerical(obj) {
+  obj = obj - 0; // eslint-disable-next-line no-self-compare
+
+  return obj === obj;
+}
+
+function camelize(string) {
+  if (_isNumerical(string)) {
+    return string;
+  } // eslint-disable-next-line no-useless-escape
+
+
+  string = string.replace(/[\-_\s]+(.)?/g, function (match, chr) {
+    return chr ? chr.toUpperCase() : '';
+  }); // Ensure 1st char is always lowercase
+
+  return string.substr(0, 1).toLowerCase() + string.substr(1);
+}
+
+function capitalize(val) {
+  return val.charAt(0).toUpperCase() + val.slice(1);
+}
+
+function styleToObject(style) {
+  return style.split(';').map(function (s) {
+    return s.trim();
+  }).filter(function (s) {
+    return s;
+  }).reduce(function (acc, pair) {
+    var i = pair.indexOf(':');
+    var prop = camelize(pair.slice(0, i));
+    var value = pair.slice(i + 1).trim();
+    prop.startsWith('webkit') ? acc[capitalize(prop)] = value : acc[prop] = value;
+    return acc;
+  }, {});
+}
+
+function convert(createElement, element) {
+  var extraProps = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+
+  if (typeof element === 'string') {
+    return element;
+  }
+
+  var children = (element.children || []).map(function (child) {
+    return convert(createElement, child);
+  });
+  /* eslint-disable dot-notation */
+
+  var mixins = Object.keys(element.attributes || {}).reduce(function (acc, key) {
+    var val = element.attributes[key];
+
+    switch (key) {
+      case 'class':
+        acc.attrs['className'] = val;
+        delete element.attributes['class'];
+        break;
+
+      case 'style':
+        acc.attrs['style'] = styleToObject(val);
+        break;
+
+      default:
+        if (key.indexOf('aria-') === 0 || key.indexOf('data-') === 0) {
+          acc.attrs[key.toLowerCase()] = val;
+        } else {
+          acc.attrs[camelize(key)] = val;
+        }
+
+    }
+
+    return acc;
+  }, {
+    attrs: {}
+  });
+
+  var _extraProps$style = extraProps.style,
+      existingStyle = _extraProps$style === void 0 ? {} : _extraProps$style,
+      remaining = _objectWithoutProperties(extraProps, ["style"]);
+
+  mixins.attrs['style'] = _objectSpread2({}, mixins.attrs['style'], {}, existingStyle);
+  /* eslint-enable */
+
+  return createElement.apply(void 0, [element.tag, _objectSpread2({}, mixins.attrs, {}, remaining)].concat(_toConsumableArray(children)));
+}
+
+var PRODUCTION = false;
+
+try {
+  PRODUCTION = "production" === 'production';
+} catch (e) {}
+
+function log () {
+  if (!PRODUCTION && console && typeof console.error === 'function') {
+    var _console;
+
+    (_console = console).error.apply(_console, arguments);
+  }
+}
+
+function normalizeIconArgs(icon) {
+  // this has everything that it needs to be rendered which means it was probably imported
+  // directly from an icon svg package
+  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName && icon.icon) {
+    return icon;
+  }
+
+  if (_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__/* .parse.icon */ .Qc.icon) {
+    return _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__/* .parse.icon */ .Qc.icon(icon);
+  } // if the icon is null, there's nothing to do
+
+
+  if (icon === null) {
+    return null;
+  } // if the icon is an object and has a prefix and an icon name, return it
+
+
+  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName) {
+    return icon;
+  } // if it's an array with length of two
+
+
+  if (Array.isArray(icon) && icon.length === 2) {
+    // use the first item as prefix, second as icon name
+    return {
+      prefix: icon[0],
+      iconName: icon[1]
+    };
+  } // if it's a string, use it as the icon name
+
+
+  if (typeof icon === 'string') {
+    return {
+      prefix: 'fas',
+      iconName: icon
+    };
+  }
+}
+
+// creates an object with a key of key
+// and a value of value
+// if certain conditions are met
+function objectWithKey(key, value) {
+  // if the value is a non-empty array
+  // or it's not an array but it is truthy
+  // then create the object with the key and the value
+  // if not, return an empty array
+  return Array.isArray(value) && value.length > 0 || !Array.isArray(value) && value ? _defineProperty({}, key, value) : {};
+}
+
+function FontAwesomeIcon(_ref) {
+  var forwardedRef = _ref.forwardedRef,
+      props = _objectWithoutProperties(_ref, ["forwardedRef"]);
+
+  var iconArgs = props.icon,
+      maskArgs = props.mask,
+      symbol = props.symbol,
+      className = props.className,
+      title = props.title,
+      titleId = props.titleId;
+  var iconLookup = normalizeIconArgs(iconArgs);
+  var classes = objectWithKey('classes', [].concat(_toConsumableArray(classList(props)), _toConsumableArray(className.split(' '))));
+  var transform = objectWithKey('transform', typeof props.transform === 'string' ? _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__/* .parse.transform */ .Qc.transform(props.transform) : props.transform);
+  var mask = objectWithKey('mask', normalizeIconArgs(maskArgs));
+  var renderedIcon = (0,_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__/* .icon */ .qv)(iconLookup, _objectSpread2({}, classes, {}, transform, {}, mask, {
+    symbol: symbol,
+    title: title,
+    titleId: titleId
+  }));
+
+  if (!renderedIcon) {
+    log('Could not find icon', iconLookup);
+    return null;
+  }
+
+  var abstract = renderedIcon.abstract;
+  var extraProps = {
+    ref: forwardedRef
+  };
+  Object.keys(props).forEach(function (key) {
+    // eslint-disable-next-line no-prototype-builtins
+    if (!FontAwesomeIcon.defaultProps.hasOwnProperty(key)) {
+      extraProps[key] = props[key];
+    }
+  });
+  return convertCurry(abstract[0], extraProps);
+}
+FontAwesomeIcon.displayName = 'FontAwesomeIcon';
+FontAwesomeIcon.propTypes = {
+  border: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  className: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  mask: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
+  fixedWidth: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  inverse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  flip: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['horizontal', 'vertical', 'both']),
+  icon: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
+  listItem: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  pull: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['right', 'left']),
+  pulse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  rotation: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf([0, 90, 180, 270]),
+  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['lg', 'xs', 'sm', '1x', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
+  spin: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
+  symbol: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
+  title: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
+  transform: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object)]),
+  swapOpacity: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool)
+};
+FontAwesomeIcon.defaultProps = {
+  border: false,
+  className: '',
+  mask: null,
+  fixedWidth: false,
+  inverse: false,
+  flip: null,
+  icon: null,
+  listItem: false,
+  pull: null,
+  pulse: false,
+  rotation: null,
+  size: null,
+  spin: false,
+  symbol: false,
+  title: '',
+  transform: null,
+  swapOpacity: false
+};
+var convertCurry = convert.bind(null, (react__WEBPACK_IMPORTED_MODULE_2___default().createElement));
+
+
+
+
+/***/ }),
+
+/***/ 8776:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "HN": () => (/* binding */ Y)
+/* harmony export */ });
+/* unused harmony exports MainImage, Placeholder, StaticImage, generateImageData, getImage, getImageData, getLowResolutionImageURL, getSrc, getSrcSet, withArtDirection */
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9279);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var common_tags__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5863);
+/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1224);
+/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(camelcase__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(5697);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
+function s(){return s=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var a=arguments[t];for(var i in a)Object.prototype.hasOwnProperty.call(a,i)&&(e[i]=a[i]);}return e;},s.apply(this,arguments);}function l(e,t){if(null==e)return{};var a,i,r={},n=Object.keys(e);for(i=0;i<n.length;i++)t.indexOf(a=n[i])>=0||(r[a]=e[a]);return r;}var d,u=(/* unused pure expression or super */ null && ([.25,.5,1,2])),c=(/* unused pure expression or super */ null && ([750,1080,1366,1920])),h=(/* unused pure expression or super */ null && ([320,654,768,1024,1366,1600,1920,2048,2560,3440,3840,4096])),g=function(e){return console.warn(e);},p=function(e,t){return e-t;},m=function(e){return e.map(function(e){return e.src+" "+e.width+"w";}).join(",\n");};function f(e){var t=e.lastIndexOf(".");if(-1!==t){var a=e.substr(t+1);if("jpeg"===a)return"jpg";if(3===a.length||4===a.length)return a;}}function v(e){var t=e.layout,a=void 0===t?"constrained":t,i=e.width,n=e.height,o=e.sourceMetadata,l=e.breakpoints,d=e.aspectRatio,u=e.formats,c=void 0===u?["auto","webp"]:u;return c=c.map(function(e){return e.toLowerCase();}),a=r(a),i&&n?s({},e,{formats:c,layout:a,aspectRatio:i/n}):(o.width&&o.height&&!d&&(d=o.width/o.height),"fullWidth"===a?(i=i||o.width||l[l.length-1],n=n||Math.round(i/(d||1.3333333333333333))):(i||(i=n&&d?n*d:o.width?o.width:n?Math.round(n/1.3333333333333333):800),d&&!n?n=Math.round(i/d):d||(d=i/n)),s({},e,{width:i,height:n,aspectRatio:d,layout:a,formats:c}));}function w(e,t){var a;return void 0===t&&(t=20),null==(a=(0,(e=v(e)).generateImageSource)(e.filename,t,Math.round(t/e.aspectRatio),e.sourceMetadata.format||"jpg",e.fit,e.options))?void 0:a.src;}function y(e){var t,a=(e=v(e)).pluginName,r=e.sourceMetadata,n=e.generateImageSource,o=e.layout,l=e.fit,h=e.options,p=e.width,w=e.height,y=e.filename,M=e.reporter,S=void 0===M?{warn:g}:M,N=e.backgroundColor,R=e.placeholderURL;if(a||S.warn('[gatsby-plugin-image] "generateImageData" was not passed a plugin name'),"function"!=typeof n)throw new Error("generateImageSource must be a function");r&&(r.width||r.height)?r.format||(r.format=f(y)):r={width:p,height:w,format:(null==(t=r)?void 0:t.format)||f(y)||"auto"};var x=new Set(e.formats);(0===x.size||x.has("auto")||x.has(""))&&(x.delete("auto"),x.delete(""),x.add(r.format)),x.has("jpg")&&x.has("png")&&(S.warn("["+a+"] Specifying both 'jpg' and 'png' formats is not supported. Using 'auto' instead"),x.delete("jpg"===r.format?"png":"jpg"));var I=function(e){var t=e.filename,a=e.layout,r=void 0===a?"constrained":a,n=e.sourceMetadata,o=e.reporter,l=void 0===o?{warn:g}:o,h=e.breakpoints,p=void 0===h?c:h,m=Object.entries({width:e.width,height:e.height}).filter(function(e){var t=e[1];return"number"==typeof t&&t<1;});if(m.length)throw new Error("Specified dimensions for images must be positive numbers (> 0). Problem dimensions you have are "+m.map(function(e){return e.join(": ");}).join(", "));return"fixed"===r?function(e){var t=e.filename,a=e.sourceMetadata,r=e.width,n=e.height,o=e.fit,s=void 0===o?"cover":o,l=e.outputPixelDensities,c=e.reporter,h=void 0===c?{warn:g}:c,p=a.width/a.height,m=b(void 0===l?u:l);if(r&&n){var f=k(a,{width:r,height:n,fit:s});r=f.width,n=f.height,p=f.aspectRatio;}r?n||(n=Math.round(r/p)):r=n?Math.round(n*p):800;var v,w,y=r;if(a.width<r||a.height<n){var E=a.width<r?"width":"height";h.warn(i(d||(v=["\n    The requested ",' "','px" for the image '," was larger than the actual image "," of ","px. If possible, replace the current image with a larger one."],w||(w=v.slice(0)),v.raw=w,d=v),E,"width"===E?r:n,t,E,a[E])),"width"===E?(r=a.width,n=Math.round(r/p)):r=(n=a.height)*p;}return{sizes:m.filter(function(e){return e>=1;}).map(function(e){return Math.round(e*r);}).filter(function(e){return e<=a.width;}),aspectRatio:p,presentationWidth:y,presentationHeight:Math.round(y/p),unscaledWidth:r};}(e):"constrained"===r?E(e):"fullWidth"===r?E(s({breakpoints:p},e)):(l.warn("No valid layout was provided for the image at "+t+". Valid image layouts are fixed, fullWidth, and constrained. Found "+r),{sizes:[n.width],presentationWidth:n.width,presentationHeight:n.height,aspectRatio:n.width/n.height,unscaledWidth:n.width});}(s({},e,{sourceMetadata:r})),W={sources:[]},j=e.sizes;j||(j=function(e,t){switch(t){case"constrained":return"(min-width: "+e+"px) "+e+"px, 100vw";case"fixed":return e+"px";case"fullWidth":return"100vw";default:return;}}(I.presentationWidth,o)),x.forEach(function(e){var t=I.sizes.map(function(t){var i=n(y,t,Math.round(t/I.aspectRatio),e,l,h);if(null!=i&&i.width&&i.height&&i.src&&i.format)return i;S.warn("["+a+"] The resolver for image "+y+" returned an invalid value.");}).filter(Boolean);if("jpg"===e||"png"===e||"auto"===e){var i=t.find(function(e){return e.width===I.unscaledWidth;})||t[0];i&&(W.fallback={src:i.src,srcSet:m(t),sizes:j});}else{var r;null==(r=W.sources)||r.push({srcSet:m(t),sizes:j,type:"image/"+e});}});var _={images:W,layout:o,backgroundColor:N};switch(R&&(_.placeholder={fallback:R}),o){case"fixed":_.width=I.presentationWidth,_.height=I.presentationHeight;break;case"fullWidth":_.width=1,_.height=1/I.aspectRatio;break;case"constrained":_.width=e.width||I.presentationWidth||1,_.height=(_.width||1)/I.aspectRatio;}return _;}var b=function(e){return Array.from(new Set([1].concat(e))).sort(p);};function E(e){var t,a=e.sourceMetadata,i=e.width,r=e.height,n=e.fit,o=void 0===n?"cover":n,s=e.outputPixelDensities,l=e.breakpoints,d=e.layout,c=a.width/a.height,h=b(void 0===s?u:s);if(i&&r){var g=k(a,{width:i,height:r,fit:o});i=g.width,r=g.height,c=g.aspectRatio;}i=i&&Math.min(i,a.width),r=r&&Math.min(r,a.height),i||r||(r=(i=Math.min(800,a.width))/c),i||(i=r*c);var m=i;return(a.width<i||a.height<r)&&(i=a.width,r=a.height),i=Math.round(i),(null==l?void 0:l.length)>0?(t=l.filter(function(e){return e<=a.width;})).length<l.length&&!t.includes(a.width)&&t.push(a.width):t=(t=h.map(function(e){return Math.round(e*i);})).filter(function(e){return e<=a.width;}),"constrained"!==d||t.includes(i)||t.push(i),{sizes:t=t.sort(p),aspectRatio:c,presentationWidth:m,presentationHeight:Math.round(m/c),unscaledWidth:i};}function k(e,t){var a=e.width/e.height,i=t.width,r=t.height;switch(t.fit){case"fill":i=t.width?t.width:e.width,r=t.height?t.height:e.height;break;case"inside":var n=t.width?t.width:Number.MAX_SAFE_INTEGER,o=t.height?t.height:Number.MAX_SAFE_INTEGER;i=Math.min(n,Math.round(o*a)),r=Math.min(o,Math.round(n/a));break;case"outside":var s=t.width?t.width:0,l=t.height?t.height:0;i=Math.max(s,Math.round(l*a)),r=Math.max(l,Math.round(s/a));break;default:t.width&&!t.height&&(i=t.width,r=Math.round(t.width/a)),t.height&&!t.width&&(i=Math.round(t.height*a),r=t.height);}return{width:i,height:r,aspectRatio:i/r};}var M=(/* unused pure expression or super */ null && (["baseUrl","urlBuilder","sourceWidth","sourceHeight","pluginName","formats","breakpoints","options"])),S=(/* unused pure expression or super */ null && (["images","placeholder"]));function N(){return true&&true;}new Set();var R=function(e){var t;return function(e){var t,a;return Boolean(null==e||null==(t=e.images)||null==(a=t.fallback)?void 0:a.src);}(e)?e:function(e){return Boolean(null==e?void 0:e.gatsbyImageData);}(e)?e.gatsbyImageData:null==e||null==(t=e.childImageSharp)?void 0:t.gatsbyImageData;},x=function(e){var t,a,i;return null==(t=R(e))||null==(a=t.images)||null==(i=a.fallback)?void 0:i.src;},I=function(e){var t,a,i;return null==(t=R(e))||null==(a=t.images)||null==(i=a.fallback)?void 0:i.srcSet;};function W(e){var t,a=e.baseUrl,i=e.urlBuilder,r=e.sourceWidth,n=e.sourceHeight,o=e.pluginName,d=void 0===o?"getImageData":o,u=e.formats,c=void 0===u?["auto"]:u,g=e.breakpoints,p=e.options,m=l(e,M);return null!=(t=g)&&t.length||"fullWidth"!==m.layout&&"FULL_WIDTH"!==m.layout||(g=h),y(s({},m,{pluginName:d,generateImageSource:function(e,t,a,r){return{width:t,height:a,format:r,src:i({baseUrl:e,width:t,height:a,options:p,format:r})};},filename:a,formats:c,breakpoints:g,sourceMetadata:{width:r,height:n,format:"auto"}}));}function j(e,t){var a,i,r,n=e.images,o=e.placeholder,d=s({},l(e,S),{images:s({},n,{sources:[]}),placeholder:o&&s({},o,{sources:[]})});return t.forEach(function(t){var a,i=t.media,r=t.image;i?(r.layout!==e.layout&&"development"==="production"&&0,(a=d.images.sources).push.apply(a,r.images.sources.map(function(e){return s({},e,{media:i});}).concat([{media:i,srcSet:r.images.fallback.srcSet}])),d.placeholder&&d.placeholder.sources.push({media:i,srcSet:r.placeholder.fallback})): false&&0;}),(a=d.images.sources).push.apply(a,n.sources),null!=o&&o.sources&&(null==(i=d.placeholder)||(r=i.sources).push.apply(r,o.sources)),d;}var _,T=["src","srcSet","loading","alt","shouldLoad","innerRef"],A=["fallback","sources","shouldLoad"],O=function(t){var a=t.src,i=t.srcSet,r=t.loading,n=t.alt,o=void 0===n?"":n,d=t.shouldLoad,u=t.innerRef,c=l(t,T);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img",s({},c,{decoding:"async",loading:r,src:d?a:void 0,"data-src":d?void 0:a,srcSet:d?i:void 0,"data-srcset":d?void 0:i,alt:o,ref:u}));},z=/*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function(t,a){var i=t.fallback,r=t.sources,n=void 0===r?[]:r,o=t.shouldLoad,d=void 0===o||o,u=l(t,A),c=u.sizes||(null==i?void 0:i.sizes),h=/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(O,s({},u,i,{sizes:c,shouldLoad:d,innerRef:a}));return n.length?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("picture",null,n.map(function(t){var a=t.media,i=t.srcSet,r=t.type;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("source",{key:a+"-"+r+"-"+i,type:r,media:a,srcSet:d?i:void 0,"data-srcset":d?void 0:i,sizes:c});}),h):h;});O.propTypes={src:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,alt:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,sizes:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,shouldLoad:prop_types__WEBPACK_IMPORTED_MODULE_3__.bool},z.displayName="Picture",z.propTypes={alt:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,shouldLoad:prop_types__WEBPACK_IMPORTED_MODULE_3__.bool,fallback:prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({src:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,sizes:prop_types__WEBPACK_IMPORTED_MODULE_3__.string}),sources:prop_types__WEBPACK_IMPORTED_MODULE_3__.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_3__.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({media:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,type:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,sizes:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired}),prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({media:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,type:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,sizes:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,srcSet:prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired})]))};var L=["fallback"],C=function(t){var a=t.fallback,i=l(t,L);return a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z,s({},i,{fallback:{src:a},"aria-hidden":!0,alt:""})):/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",s({},i));};C.displayName="Placeholder",C.propTypes={fallback:prop_types__WEBPACK_IMPORTED_MODULE_3__.string,sources:null==(_=z.propTypes)?void 0:_.sources,alt:function(e,t,a){return e[t]?new Error("Invalid prop `"+t+"` supplied to `"+a+"`. Validation failed."):null;}};var q=/*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function(t,a){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment),null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z,s({ref:a},t)),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("noscript",null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z,s({},t,{shouldLoad:!0}))));});q.displayName="MainImage",q.propTypes=z.propTypes;var D=["children"],P=function(){return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script",{type:"module",dangerouslySetInnerHTML:{__html:'const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1)}}'}});},H=function(t){var a=t.layout,i=t.width,r=t.height;return"fullWidth"===a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{"aria-hidden":!0,style:{paddingTop:r/i*100+"%"}}):"constrained"===a?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div",{style:{maxWidth:i,display:"block"}},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img",{alt:"",role:"presentation","aria-hidden":"true",src:"data:image/svg+xml;charset=utf-8,%3Csvg height='"+r+"' width='"+i+"' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",style:{maxWidth:"100%",display:"block",position:"static"}})):null;},F=function(t){var i=t.children,r=l(t,D);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(H,s({},r)),i,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(P,null));},B=["as","children"],G=["as","className","class","style","image","loading","imgClassName","imgStyle","backgroundColor","objectFit","objectPosition"],V=["style","className"],U=function(e){return e.replace(/\n/g,"");},X=function(t){var a=t.as,i=void 0===a?"div":a,r=t.children,n=l(t,B);return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(i,s({},n),r);},Y=function(t){var a=t.as,i=t.className,r=t.class,n=t.style,o=t.image,d=t.loading,u=void 0===d?"lazy":d,c=t.imgClassName,h=t.imgStyle,g=t.backgroundColor,p=t.objectFit,m=t.objectPosition,f=l(t,G);if(!o)return console.warn("[gatsby-plugin-image] Missing image prop"),null;r&&(i=r),h=s({objectFit:p,objectPosition:m,backgroundColor:g},h);var v=o.width,w=o.height,y=o.layout,b=o.images,E=o.placeholder,k=o.backgroundColor,M=function(e,t,a){var i={},r="gatsby-image-wrapper";return N()||(i.position="relative",i.overflow="hidden"),"fixed"===a?(i.width=e,i.height=t):"constrained"===a&&(N()||(i.display="inline-block",i.verticalAlign="top"),r="gatsby-image-wrapper gatsby-image-wrapper-constrained"),{className:r,"data-gatsby-image-wrapper":"",style:i};}(v,w,y),S=M.style,R=M.className,x=l(M,V),I={fallback:void 0,sources:[]};return b.fallback&&(I.fallback=s({},b.fallback,{srcSet:b.fallback.srcSet?U(b.fallback.srcSet):void 0})),b.sources&&(I.sources=b.sources.map(function(e){return s({},e,{srcSet:U(e.srcSet)});})),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(X,s({},x,{as:a,style:s({},S,n,{backgroundColor:g}),className:R+(i?" "+i:"")}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(F,{layout:y,width:v,height:w},/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(C,s({},function(e,t,a,i,r,n,o,l){var d={};n&&(d.backgroundColor=n,"fixed"===a?(d.width=i,d.height=r,d.backgroundColor=n,d.position="relative"):("constrained"===a||"fullWidth"===a)&&(d.position="absolute",d.top=0,d.left=0,d.bottom=0,d.right=0)),o&&(d.objectFit=o),l&&(d.objectPosition=l);var u=s({},e,{"aria-hidden":!0,"data-placeholder-image":"",style:s({opacity:1,transition:"opacity 500ms linear"},d)});return N()||(u.style={height:"100%",left:0,position:"absolute",top:0,width:"100%"}),u;}(E,0,y,v,w,k,p,m))),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(q,s({"data-gatsby-image-ssr":"",className:c},f,function(e,t,a,i,r,n,o,l){return void 0===l&&(l={}),N()||(l=s({height:"100%",left:0,position:"absolute",top:0,transform:"translateZ(0)",transition:"opacity 250ms linear",width:"100%",willChange:"opacity"},l)),s({},a,{loading:i,shouldLoad:e,"data-main-image":"",style:s({},l,{opacity:0}),onLoad:function(e){var t=e.currentTarget,a=new Image();a.src=t.currentSrc,a.decode?a.decode().catch(function(){}).then(function(){r(!0);}):r(!0);},ref:void 0});}("eager"===u,0,I,u,void 0,0,0,h)))));},Z=["src","__imageData","__error","width","height","aspectRatio","tracedSVGOptions","placeholder","formats","quality","transformOptions","jpgOptions","pngOptions","webpOptions","avifOptions","blurredOptions"],J=function(t){return function(a){var i=a.src,r=a.__imageData,n=a.__error,o=l(a,Z);return n&&console.warn(n),r?/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(t,s({image:r},o)):(console.warn("Image not loaded",i),n||"development"!=="production"||0,null);};}(Y),K=function(e,t){return"fullWidth"!==e.layout||"width"!==t&&"height"!==t||!e[t]?prop_types__WEBPACK_IMPORTED_MODULE_3___default().number.apply((prop_types__WEBPACK_IMPORTED_MODULE_3___default()),[e,t].concat([].slice.call(arguments,2))):new Error('"'+t+'" '+e[t]+" may not be passed when layout is fullWidth.");},Q=new Set(["fixed","fullWidth","constrained"]),$={src:(prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),alt:function(e,t,a){return e.alt||""===e.alt?prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.apply((prop_types__WEBPACK_IMPORTED_MODULE_3___default()),[e,t,a].concat([].slice.call(arguments,3))):new Error('The "alt" prop is required in '+a+'. If the image is purely presentational then pass an empty string: e.g. alt="". Learn more: https://a11y-style-guide.com/style-guide/section-media.html');},width:K,height:K,sizes:(prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),layout:function(e){if(void 0!==e.layout&&!Q.has(e.layout))return new Error("Invalid value "+e.layout+'" provided for prop "layout". Defaulting to "constrained". Valid values are "fixed", "fullWidth" or "constrained".');}};J.displayName="StaticImage",J.propTypes=$;
+
+/***/ }),
+
+/***/ 1224:
+/***/ ((module) => {
+
+const preserveCamelCase=string=>{let isLastCharLower=false;let isLastCharUpper=false;let isLastLastCharUpper=false;for(let i=0;i<string.length;i++){const character=string[i];if(isLastCharLower&&/[a-zA-Z]/.test(character)&&character.toUpperCase()===character){string=string.slice(0,i)+'-'+string.slice(i);isLastCharLower=false;isLastLastCharUpper=isLastCharUpper;isLastCharUpper=true;i++;}else if(isLastCharUpper&&isLastLastCharUpper&&/[a-zA-Z]/.test(character)&&character.toLowerCase()===character){string=string.slice(0,i-1)+'-'+string.slice(i-1);isLastLastCharUpper=isLastCharUpper;isLastCharUpper=false;isLastCharLower=true;}else{isLastCharLower=character.toLowerCase()===character&&character.toUpperCase()!==character;isLastLastCharUpper=isLastCharUpper;isLastCharUpper=character.toUpperCase()===character&&character.toLowerCase()!==character;}}return string;};const camelCase=(input,options)=>{if(!(typeof input==='string'||Array.isArray(input))){throw new TypeError('Expected the input to be `string | string[]`');}options=Object.assign({pascalCase:false},options);const postProcess=x=>options.pascalCase?x.charAt(0).toUpperCase()+x.slice(1):x;if(Array.isArray(input)){input=input.map(x=>x.trim()).filter(x=>x.length).join('-');}else{input=input.trim();}if(input.length===0){return'';}if(input.length===1){return options.pascalCase?input.toUpperCase():input.toLowerCase();}const hasUpperCase=input!==input.toLowerCase();if(hasUpperCase){input=preserveCamelCase(input);}input=input.replace(/^[_.\- ]+/,'').toLowerCase().replace(/[_.\- ]+(\w|$)/g,(_,p1)=>p1.toUpperCase()).replace(/\d+(\w|$)/g,m=>m.toUpperCase());return postProcess(input);};module.exports=camelCase;// TODO: Remove this for the next major release
+module.exports["default"]=camelCase;
+
+/***/ }),
+
+/***/ 2522:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "Z": () => (/* binding */ layout)
+});
+
+// EXTERNAL MODULE: external "D:\\Study_prog\\gatsby\\dorahei-gatsby-blog\\node_modules\\react\\index.js"
+var external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_ = __webpack_require__(9279);
+var external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default = /*#__PURE__*/__webpack_require__.n(external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_);
+// EXTERNAL MODULE: ./.cache/gatsby-browser-entry.js + 4 modules
+var gatsby_browser_entry = __webpack_require__(2031);
+;// CONCATENATED MODULE: ./src/components/header.js
+const Header=()=>/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("header",{className:"header"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",{className:"container"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",{className:"site"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_browser_entry.Link,{to:`/`},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("svg",{width:"225.65",height:"46.59",version:"1.1",id:"svg37"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("defs",{id:"defs31"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("rect",{x:"44.680549",y:0,width:"181.10164",height:"46.663414",id:"rect2710"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("rect",{x:"44.680549",y:0,width:"181.10164",height:"46.663414",id:"rect16958"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("rect",{x:"44.680549",y:0,width:"181.10164",height:"46.663414",id:"rect16964"})),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("desc",{id:"desc33"},"DORAHEI"),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 218.01344,36.330022 h -7.25757 V 10.988261 h 6.96908 v 3.56976 h -4.82336 v 7.174864 h 4.44469 v 3.552088 h -4.44469 v 7.492962 h 5.11185 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path867"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 208.4569,14.558021 h -4.83236 v 7.616666 h 4.4537 v 3.552088 h -4.4537 v 10.603247 h -2.14571 V 10.988261 h 6.97807 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path865"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 198.2963,36.330022 h -2.20881 V 10.988261 h 2.20881 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path863"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 194.23026,36.330022 h -7.15839 V 10.988261 h 2.14572 v 21.789674 h 5.01267 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path861"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 179.69712,36.330022 h -7.25757 V 10.988261 h 6.96907 v 3.56976 h -4.82335 v 7.174864 h 4.44469 v 3.552088 h -4.44469 v 7.492962 h 5.11185 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path859"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 161.79212,35.322713 v -4.329658 q 0.29751,0.530161 0.70321,0.954292 0.41472,0.42413 0.87452,0.724556 0.45979,0.282753 0.91959,0.441802 0.45979,0.159046 0.84747,0.159046 1.35234,0 2.01048,-0.883605 0.66715,-0.883603 0.66715,-2.562451 0,-0.901276 -0.22539,-1.555142 -0.21636,-0.671539 -0.61306,-1.219372 -0.39668,-0.547837 -0.93762,-1.042653 -0.53192,-0.512492 -1.14498,-1.060326 -0.65814,-0.689212 -1.22612,-1.396095 -0.56799,-0.706882 -0.99172,-1.555142 -0.41472,-0.865933 -0.65814,-1.943929 -0.23441,-1.077997 -0.23441,-2.527107 0,-1.78488 0.4057,-3.092614 0.41473,-1.325406 1.08189,-2.173666 0.67616,-0.865932 1.53265,-1.27239 0.85648,-0.424129 1.74902,-0.424129 2.02851,0 2.95712,0.901276 v 4.152938 q -1.0999,-1.555143 -2.8309,-1.555143 -0.47782,0 -0.95565,0.17672 -0.46882,0.176721 -0.84748,0.583179 -0.36963,0.406458 -0.60403,1.042653 -0.23441,0.636194 -0.23441,1.53747 0,0.84826 0.18031,1.466783 0.18031,0.618523 0.5229,1.131013 0.35161,0.51249 0.84747,1.007308 0.50489,0.477146 1.16302,1.042653 0.67617,0.689212 1.27119,1.44911 0.60405,0.759899 1.05485,1.678849 0.45979,0.918947 0.72123,2.049961 0.27045,1.113341 0.27045,2.544778 0,1.926258 -0.39667,3.251664 -0.39669,1.325404 -1.07286,2.155993 -0.66715,0.830588 -1.54165,1.201701 -0.87452,0.371114 -1.84822,0.371114 -0.32455,0 -0.80237,-0.106029 -0.46882,-0.08836 -0.96469,-0.282754 -0.49586,-0.176732 -0.93762,-0.441803 -0.44175,-0.265082 -0.71223,-0.600851 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path857"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 153.75921,36.754152 q -2.79485,0 -4.48077,-3.552088 -1.67688,-3.552087 -1.67688,-9.242496 0,-6.11454 1.71295,-9.754988 1.71298,-3.640448 4.65207,-3.640448 2.7227,0 4.38157,3.534415 1.66788,3.534416 1.66788,9.242498 0,6.202899 -1.70395,9.808003 -1.70393,3.605104 -4.55287,3.605104 z m 0.0992,-22.496556 q -1.77607,0 -2.89401,2.597796 -1.1089,2.597796 -1.1089,6.839094 0,4.223627 1.08187,6.80375 1.08188,2.580125 2.83089,2.580125 1.85722,0 2.93007,-2.456419 1.07286,-2.456419 1.07286,-6.874439 0,-4.541724 -1.04581,-7.015816 -1.03679,-2.474091 -2.86697,-2.474091 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path855"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 139.80306,36.754152 q -2.79484,0 -4.48076,-3.552088 -1.67691,-3.552087 -1.67691,-9.242496 0,-6.11454 1.71297,-9.754988 1.71298,-3.640448 4.65205,-3.640448 2.72272,0 4.3816,3.534415 1.66788,3.534416 1.66788,9.242498 0,6.202899 -1.70395,9.808003 -1.70395,3.605104 -4.55288,3.605104 z m 0.0992,-22.496556 q -1.77607,0 -2.89401,2.597796 -1.10892,2.597796 -1.10892,6.839094 0,4.223627 1.08188,6.80375 1.08186,2.580125 2.8309,2.580125 1.85721,0 2.93006,-2.456419 1.07286,-2.456419 1.07286,-6.874439 0,-4.541724 -1.0458,-7.015816 -1.0368,-2.474091 -2.86697,-2.474091 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path853"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 132.78892,36.330022 h -7.15841 V 10.988261 h 2.14573 v 21.789674 h 5.01268 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path851"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 117.37223,36.330022 h -2.20882 V 10.988261 h 2.20882 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path849"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 112.87344,36.330022 h -7.25757 V 10.988261 h 6.96907 v 3.56976 h -4.82335 v 7.174864 h 4.44468 v 3.552088 h -4.44468 v 7.492962 h 5.11185 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path847"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 102.42436,36.330022 h -2.15474 V 25.33799 H 94.184083 V 36.330022 H 92.038367 V 10.988261 h 2.145716 v 10.656264 h 6.085537 V 10.988261 h 2.15474 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path845"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 90.262297,36.330022 h -2.353073 l -1.163013,-6.450307 h -5.084803 l -1.117935,6.450307 h -2.344058 l 4.841381,-25.341761 h 2.416182 z m -4.08407,-9.878691 -1.794106,-10.10843 q -0.08115,-0.494818 -0.171295,-1.590487 h -0.03606 q -0.08114,1.007309 -0.180312,1.590487 l -1.776074,10.10843 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path843"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"M 78.136304,36.330022 H 75.629965 L 73.56539,29.543944 q -0.279483,-0.936619 -0.54995,-1.590488 -0.261454,-0.671539 -0.540938,-1.095667 -0.270469,-0.424131 -0.59503,-0.618524 -0.324561,-0.194396 -0.730264,-0.194396 H 70.28371 V 36.330018 H 68.147011 V 10.988261 h 4.255366 q 0.910577,0 1.676904,0.424131 0.766326,0.424129 1.334309,1.290061 0.567982,0.84826 0.88353,2.138322 0.324562,1.272389 0.324562,2.986581 0,1.343078 -0.207359,2.474091 -0.198344,1.113342 -0.576999,1.996945 -0.369639,0.865931 -0.901561,1.484454 -0.522905,0.618523 -1.181044,0.954294 v 0.07068 q 0.351608,0.388785 0.613061,0.865932 0.261454,0.459474 0.495858,0.954292 0.234407,0.494819 0.459796,1.131014 0.234407,0.618522 0.51389,1.44911 z M 70.28371,14.398973 v 8.235188 h 1.785089 q 0.49586,0 0.910578,-0.300425 0.423733,-0.300426 0.730264,-0.865932 0.30653,-0.565506 0.477828,-1.378422 0.171294,-0.812916 0.171294,-1.820224 0,-1.820224 -0.586013,-2.845204 -0.586014,-1.024981 -1.685918,-1.024981 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path841"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 59.519077,36.754152 q -2.794839,0 -4.480756,-3.552088 -1.676904,-3.552087 -1.676904,-9.242496 0,-6.11454 1.712966,-9.754988 1.712964,-3.640448 4.652052,-3.640448 2.722714,0 4.381586,3.534415 1.667887,3.534416 1.667887,9.242498 0,6.202899 -1.70395,9.808003 -1.703949,3.605104 -4.552881,3.605104 z m 0.09917,-22.496556 q -1.776074,0 -2.894009,2.597796 -1.10892,2.597796 -1.10892,6.839094 0,4.223627 1.081872,6.80375 1.081873,2.580125 2.830901,2.580125 1.857215,0 2.930073,-2.456419 1.072856,-2.456419 1.072856,-6.874439 0,-4.541724 -1.045811,-7.015816 -1.036794,-2.474091 -2.866962,-2.474091 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',strokeWidth:'1.49138',fill:'#479454',fillOpacity:1},id:"path839"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"M 40.946928,36.330022 V 10.988261 h 3.73246 q 7.149377,0 7.149377,12.352784 0,5.86713 -1.983434,9.43689 -1.983434,3.552087 -5.319208,3.552087 z m 2.136697,-21.772001 v 18.219914 h 1.712966 q 2.262918,0 3.516087,-2.438748 1.262183,-2.438745 1.262183,-6.89211 0,-8.889056 -4.697129,-8.889056 z",style:{fontWeight:'bold',InkscapeFontSpecification:'"Yu Gothic UI Bold"',textAlign:'center',textAnchor:'middle',display:'inline',fill:'#479454',fillOpacity:1,strokeWidth:'1.49138'},id:"path837"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{style:{display:'inline',fill:'#479454'},id:"path12023",d:"m 9.2704228,24.863288 c -0.1283697,-1.346534 0.032082,-2.667304 0.3471438,-3.974312 0.5121994,-1.590772 1.4538304,-3.010371 2.3453344,-4.412106 0.410464,-0.561902 1.041212,-1.863355 1.711463,-2.160368 0.09564,-0.04238 0.207239,-0.02868 0.310858,-0.04302 -6.3746886,0.151942 -3.683057,-0.442835 -2.609041,0.409974 0.544454,0.432318 0.994787,1.012124 1.441244,1.537718 0.926964,1.089324 1.630438,2.321342 2.045961,3.687505 0.23717,0.960859 0.232892,1.956465 0.227966,2.939656 -0.0033,0.724548 -0.02012,1.448934 -0.02951,2.173413 0,0 3.726698,0.0028 3.726698,0.0028 v 0 c 0.0016,-0.725921 0.0046,-1.451839 0.0055,-2.177762 -0.01335,-1.019361 -0.0097,-2.051702 -0.243388,-3.049715 -0.449091,-1.40516 -1.170863,-2.679689 -2.102653,-3.826039 -0.441907,-0.555954 -0.892716,-1.128312 -1.397826,-1.630085 -0.02602,-0.02585 -0.637102,-0.576564 -0.754644,-0.581281 -1.33367,-0.05352 -2.669212,0.03832 -4.003818,0.05748 -0.9382131,0.534159 -1.3930949,1.585479 -1.9634628,2.457135 -0.8836246,1.451287 -1.8526577,2.900462 -2.368653,4.529705 -0.3100457,1.336406 -0.4257502,2.687386 -0.4246199,4.059261 0,0 3.7354565,0 3.7354565,0 z"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{style:{display:'inline',fill:'#479454'},id:"path12025",d:"m 25.659349,23.509754 c -0.01417,-0.843918 -0.09119,-1.710453 0.06706,-2.547148 0.119717,-0.633 0.25454,-0.868233 0.500711,-1.45242 0.574525,-1.262271 1.564327,-2.208499 2.557085,-3.141862 0.216836,-0.185056 0.73133,-0.644467 0.994641,-0.794201 0.14728,-0.08375 0.315386,-0.123919 0.473079,-0.185878 -1.029055,0.04869 -2.071643,-0.02726 -3.087166,0.146054 -0.221286,0.03777 0.433184,0.14337 0.614308,0.275988 0.243533,0.178313 0.425961,0.427753 0.638941,0.641629 0.199504,0.300116 0.409457,0.593542 0.598512,0.900348 0.08709,0.141339 1.154754,2.018853 1.225845,2.139407 0.583949,0.990237 1.203315,1.959551 1.794406,2.945592 0.543056,0.914286 1.04153,1.861357 1.235267,2.914219 0,0 3.72119,-0.06988 3.72119,-0.06988 v 0 C 36.776433,24.172554 36.235486,23.186449 35.632682,22.238996 35.019333,21.263813 34.383809,20.300183 33.79865,19.307628 32.881313,17.751627 33.480865,18.694934 32.598791,17.15051 32.413806,16.826618 32.215664,16.51042 32.0241,16.190375 c -0.184077,-0.232713 -0.763221,-1.129059 -1.216211,-1.171 -3.646959,-0.337667 -3.75892,-0.684097 -5.668422,1.053245 -1.012305,0.977468 -2.015106,1.966352 -2.554392,3.29747 -0.231073,0.594292 -0.387128,0.918657 -0.508918,1.555369 -0.162416,0.849096 -0.08796,1.727118 -0.146751,2.584296 0,0 3.729947,0 3.729947,0 z"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{style:{display:'inline',fill:'#479454'},id:"path12027",d:"m 11.284773,32.607974 c 0.919617,1.123625 1.901057,2.192984 2.884706,3.26028 1.319998,1.483066 2.431133,1.641484 4.33761,1.713538 2.661935,-0.06473 6.259968,0.159714 8.867877,-1.049928 0.282177,-0.130884 0.543746,-0.302255 0.815619,-0.453383 1.308022,-0.954217 2.427204,-2.132466 3.260278,-3.519535 0.353389,-0.757898 0.199113,-0.375293 0.465719,-1.146644 0,0 -3.675467,-0.124286 -3.675467,-0.124286 v 0 c -0.257695,0.720192 -0.108543,0.363111 -0.450458,1.069984 -0.823793,1.324441 -1.88789,2.469892 -3.198955,3.329209 -0.26711,0.134869 -0.525559,0.288473 -0.80133,0.404608 -0.945379,0.398128 -1.990919,0.594038 -3.001477,0.734067 -0.385883,0.05347 -1.546986,0.06417 -1.162083,0.12429 0.80447,0.125655 1.627669,0.05037 2.441503,0.07555 -1.758192,-0.0096 -3.016382,-0.06205 -4.275179,-1.429388 -0.976914,-1.04164 -1.951518,-2.092737 -2.788983,-3.252369 0,0 -3.71938,0.264007 -3.71938,0.264007 z"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{style:{display:'inline',fill:'#479454'},id:"path12029",d:"m 15.816688,32.811588 c 1.028094,-0.0042 2.056199,-0.0061 3.084302,-0.0057 0.898946,-0.007 1.816616,-0.06378 2.698137,-0.252133 0.857821,-0.125037 1.713412,-0.260569 2.570825,-0.391963 0.780666,-0.07684 1.555586,-0.184987 2.333864,-0.283559 0.913684,-0.112765 1.83598,-0.114547 2.75508,-0.125348 0.545289,-0.005 1.090601,-0.005 1.635906,-0.005 0,0 -3.648552,-0.576983 -3.648552,-0.576983 v 0 c -0.539509,0.0026 -1.079021,0.0052 -1.6185,0.01183 -0.932828,0.0137 -1.868358,0.02679 -2.79327,0.16296 -0.777535,0.103939 -1.558247,0.177523 -2.333967,0.293896 -0.859748,0.140621 -1.723554,0.25004 -2.581892,0.398149 -0.874162,0.127022 -1.756432,0.216915 -2.641032,0.194299 -1.051939,4.29e-4 -2.103879,-0.0016 -3.155809,-0.0057 0,0 3.694908,0.585216 3.694908,0.585216 z"})))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("nav",{className:"nav"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("ul",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_browser_entry.Link,{to:`/`},"TOP")),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_browser_entry.Link,{to:`/about/`},"ABOUT")),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_browser_entry.Link,{to:`/blog/`},"BLOG"))))));/* harmony default export */ const header = (Header);
+// EXTERNAL MODULE: ./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js
+var gatsby_image_module = __webpack_require__(8776);
+// EXTERNAL MODULE: ./node_modules/@fortawesome/react-fontawesome/index.es.js
+var index_es = __webpack_require__(7814);
+;// CONCATENATED MODULE: ./node_modules/@fortawesome/free-brands-svg-icons/index.es.js
 /*!
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
@@ -5683,1910 +5655,41 @@ var _iconsCache = {
 
 
 
+;// CONCATENATED MODULE: ./src/components/footer.js
+const Footer=()=>{const data=(0,gatsby_browser_entry.useStaticQuery)("3354381539");return/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("footer",{className:"footer"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",{className:"container"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",{className:"site"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_browser_entry.Link,{to:`/`},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("svg",{width:"225.65",height:"46.59",version:"1.1",id:"svg32"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("g",{fill:"#479454",id:"g26",style:{display:'inline',fill:'#ff0000'}},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1037",d:"m 218.013,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 208.457,14.558 h -4.832 v 7.617 h 4.454 v 3.552 h -4.454 V 36.33 h -2.146 V 10.988 h 6.978 z M 198.296,36.33 h -2.209 V 10.988 h 2.209 z m -4.066,0 h -7.158 V 10.988 h 2.146 v 21.79 h 5.013 z",id:"path1034",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1031",d:"m 179.697,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 161.792,35.323 v -4.33 q 0.298,0.53 0.703,0.954 0.415,0.424 0.875,0.725 0.46,0.283 0.92,0.442 0.46,0.159 0.847,0.159 1.352,0 2.01,-0.884 0.667,-0.884 0.667,-2.562 0,-0.901 -0.225,-1.555 -0.216,-0.672 -0.613,-1.219 -0.397,-0.548 -0.938,-1.043 -0.532,-0.512 -1.145,-1.06 -0.658,-0.689 -1.226,-1.396 -0.568,-0.707 -0.992,-1.555 -0.415,-0.866 -0.658,-1.944 -0.234,-1.078 -0.234,-2.527 0,-1.785 0.406,-3.093 0.415,-1.325 1.082,-2.174 0.676,-0.866 1.533,-1.272 0.856,-0.424 1.749,-0.424 2.029,0 2.957,0.901 v 4.153 q -1.1,-1.555 -2.831,-1.555 -0.478,0 -0.956,0.177 -0.469,0.177 -0.847,0.583 -0.37,0.406 -0.604,1.043 -0.234,0.636 -0.234,1.537 0,0.848 0.18,1.467 0.18,0.619 0.523,1.131 0.352,0.512 0.847,1.007 0.505,0.477 1.163,1.043 0.676,0.689 1.271,1.449 0.604,0.76 1.055,1.679 0.46,0.919 0.721,2.05 0.27,1.113 0.27,2.545 0,1.926 -0.397,3.252 -0.397,1.325 -1.073,2.156 -0.667,0.831 -1.542,1.202 -0.875,0.371 -1.848,0.371 -0.325,0 -0.802,-0.106 -0.469,-0.088 -0.965,-0.283 -0.496,-0.177 -0.938,-0.442 -0.442,-0.265 -0.712,-0.601 z",id:"path1028",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1025",d:"m 153.759,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1022",d:"m 139.803,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 132.789,36.33 h -7.158 V 10.988 h 2.146 v 21.79 h 5.013 z m -15.417,0 h -2.209 V 10.988 h 2.209 z",id:"path1019",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1016",d:"m 112.873,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 102.424,36.33 h -2.155 V 25.338 H 94.183 V 36.33 H 92.037 V 10.988 h 2.146 v 10.656 h 6.086 V 10.988 h 2.155 z m -12.162,0 h -2.353 l -1.163,-6.45 h -5.085 l -1.118,6.45 H 78.199 L 83.04,10.988 h 2.416 z M 86.178,26.451 84.384,16.343 q -0.081,-0.495 -0.171,-1.59 h -0.036 q -0.081,1.007 -0.18,1.59 L 82.22,26.451 Z M 78.136,36.33 H 75.63 l -2.065,-6.786 q -0.279,-0.937 -0.55,-1.59 -0.261,-0.672 -0.541,-1.096 -0.27,-0.424 -0.595,-0.619 -0.325,-0.194 -0.73,-0.194 H 70.284 V 36.33 H 68.147 V 10.988 h 4.255 q 0.911,0 1.677,0.424 0.766,0.424 1.334,1.29 0.568,0.848 0.884,2.138 0.325,1.272 0.325,2.987 0,1.343 -0.207,2.474 -0.198,1.113 -0.577,1.997 -0.37,0.866 -0.902,1.484 -0.523,0.619 -1.181,0.954 v 0.071 q 0.352,0.389 0.613,0.866 0.261,0.459 0.496,0.954 0.234,0.495 0.46,1.131 0.234,0.619 0.514,1.449 z M 70.283,14.399 v 8.235 h 1.785 q 0.496,0 0.911,-0.3 0.424,-0.3 0.73,-0.866 0.307,-0.566 0.478,-1.378 0.171,-0.813 0.171,-1.82 0,-1.82 -0.586,-2.845 Q 73.186,14.4 72.086,14.4 Z",id:"path1013",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"path1010",d:"m 59.519002,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"M 40.947,36.33 V 10.988 h 3.732 q 7.149,0 7.149,12.353 0,5.867 -1.983,9.437 -1.983,3.552 -5.319,3.552 z m 2.137,-21.772 v 18.22 h 1.713 q 2.263,0 3.516,-2.439 1.262,-2.439 1.262,-6.892 0,-8.889 -4.697,-8.889 z M 9.27,24.863 c -0.128,-1.347 0.032,-2.667 0.347,-3.974 0.512,-1.591 1.454,-3.01 2.345,-4.412 0.41,-0.562 1.041,-1.863 1.711,-2.16 0.096,-0.042 0.207,-0.029 0.311,-0.043 -6.375,0.152 -3.683,-0.443 -2.609,0.41 0.544,0.432 0.995,1.012 1.441,1.538 0.927,1.089 1.63,2.321 2.046,3.688 0.237,0.961 0.233,1.956 0.228,2.94 l -0.03,2.173 3.727,0.003 v 0 l 0.006,-2.178 c -0.013,-1.019 -0.01,-2.052 -0.243,-3.05 -0.449,-1.405 -1.171,-2.68 -2.103,-3.826 l -1.398,-1.63 c -0.026,-0.026 -0.637,-0.577 -0.755,-0.581 -1.334,-0.054 -2.669,0.038 -4.004,0.057 -0.938,0.534 -1.393,1.585 -1.963,2.457 -0.884,1.451 -1.853,2.9 -2.369,4.53 -0.31,1.336 -0.426,2.687 -0.425,4.059 H 9.27 Z M 25.659,23.51 c -0.014,-0.844 -0.091,-1.71 0.067,-2.547 0.12,-0.633 0.255,-0.868 0.501,-1.452 0.575,-1.262 1.564,-2.208 2.557,-3.142 l 0.995,-0.794 c 0.147,-0.084 0.315,-0.124 0.473,-0.186 -1.029,0.049 -2.072,-0.027 -3.087,0.146 -0.221,0.038 0.433,0.143 0.614,0.276 0.244,0.178 0.426,0.428 0.639,0.642 l 0.599,0.9 1.226,2.139 1.794,2.946 c 0.543,0.914 1.042,1.861 1.235,2.914 l 3.721,-0.07 v 0 c -0.217,-1.109 -0.758,-2.095 -1.361,-3.043 l -1.834,-2.931 -1.2,-2.157 -0.575,-0.96 c -0.184,-0.233 -0.763,-1.129 -1.216,-1.171 -3.647,-0.338 -3.759,-0.684 -5.668,1.053 -1.012,0.977 -2.015,1.966 -2.554,3.297 -0.231,0.594 -0.387,0.919 -0.509,1.555 -0.162,0.849 -0.088,1.727 -0.147,2.584 h 3.73 z m -14.374,9.098 2.885,3.26 c 1.32,1.483 2.431,1.641 4.338,1.714 2.662,-0.065 6.26,0.16 8.868,-1.05 0.282,-0.131 0.544,-0.302 0.816,-0.453 1.308,-0.954 2.427,-2.132 3.26,-3.52 0.353,-0.758 0.199,-0.375 0.466,-1.147 l -3.675,-0.124 v 0 c -0.258,0.72 -0.109,0.363 -0.45,1.07 -0.824,1.324 -1.888,2.47 -3.199,3.329 l -0.801,0.405 c -0.945,0.398 -1.991,0.594 -3.001,0.734 -0.386,0.053 -1.547,0.064 -1.162,0.124 0.804,0.126 1.628,0.05 2.442,0.076 -1.758,-0.01 -3.016,-0.062 -4.275,-1.429 l -2.789,-3.252 -3.719,0.264 z",id:"path1007",style:{fill:'#ffffff'}}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{d:"m 15.817,32.812 3.084,-0.006 c 0.899,-0.007 1.817,-0.064 2.698,-0.252 l 2.571,-0.392 2.334,-0.284 c 0.914,-0.113 1.836,-0.115 2.755,-0.125 l 1.636,-0.005 -3.649,-0.577 v 0 l -1.619,0.012 -2.793,0.163 -2.334,0.294 -2.582,0.398 c -0.874,0.127 -1.756,0.217 -2.641,0.194 a 732.99,732.99 0 0 1 -3.156,-0.006 l 3.695,0.585 z",id:"path1004",style:{fill:'#ffffff'}})),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("defs",{id:"defs30"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"B",d:"M218.013 36.33h-7.258V10.988h6.969v3.57h-4.823v7.175h4.445v3.552h-4.445v7.493h5.112z"}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("path",{id:"C",d:"M153.759 36.754q-2.795 0-4.481-3.552-1.677-3.552-1.677-9.242 0-6.115 1.713-9.755 1.713-3.64 4.652-3.64 2.723 0 4.382 3.534 1.668 3.534 1.668 9.242 0 6.203-1.704 9.808-1.704 3.605-4.553 3.605zm.099-22.497q-1.776 0-2.894 2.598-1.109 2.598-1.109 6.839 0 4.224 1.082 6.804 1.082 2.58 2.831 2.58 1.857 0 2.93-2.456 1.073-2.456 1.073-6.874 0-4.542-1.046-7.016-1.037-2.474-2.867-2.474z"}))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("p",null,"\u3046\u3064\u75C5\u304B\u3089\u793E\u4F1A\u5FA9\u5E30\u306E\u4F53\u9A13\u8A18\u3092\u8A18\u9332\u3059\u308B\u30B5\u30A4\u30C8"))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("ul",{className:"sns"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("a",{href:"https://twitter.com/Dorahei_Smile/"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(index_es/* FontAwesomeIcon */.G,{icon:faTwitter}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("span",{className:"sr-only"},"Twitter"))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("a",{href:"https://facebook.com/RYUHEITORIYAMA/"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(index_es/* FontAwesomeIcon */.G,{icon:faFacebookSquare}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("span",{className:"sr-only"},"Facebook"))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("a",{href:"http://instagram.com/Dorahei_Smile/"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(index_es/* FontAwesomeIcon */.G,{icon:faInstagram}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("span",{className:"sr-only"},"Instagram"))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("li",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("a",{href:"http://youtube.com/channel/UC97HpZFHRfJTw0aOP6j1DMw/"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(index_es/* FontAwesomeIcon */.G,{icon:faYoutube}),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("span",{className:"sr-only"},"Youtube"))))),/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",{className:"back"},/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(gatsby_image_module/* GatsbyImage */.HN,{image:data.pattern.childImageSharp.gatsbyImageData,alt:"",style:{height:"100%"}})));};/* harmony default export */ const footer = (Footer);
+// EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/index.es.js
+var fontawesome_svg_core_index_es = __webpack_require__(8947);
+;// CONCATENATED MODULE: ./src/components/layout.js
+fontawesome_svg_core_index_es/* config.autoAddCss */.vc.autoAddCss=false;const Layout=({children})=>/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement("div",null,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(header,null),children,/*#__PURE__*/external_D_Study_prog_gatsby_dorahei_gatsby_blog_node_modules_react_index_js_default().createElement(footer,null));/* harmony default export */ const layout = (Layout);
 
 /***/ }),
 
-/***/ "./node_modules/@fortawesome/react-fontawesome/index.es.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/@fortawesome/react-fontawesome/index.es.js ***!
-  \*****************************************************************/
+/***/ 6179:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "FontAwesomeIcon": () => (/* binding */ FontAwesomeIcon)
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") {
-    _typeof = function (obj) {
-      return typeof obj;
-    };
-  } else {
-    _typeof = function (obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj;
-    };
-  }
-
-  return _typeof(obj);
-}
-
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-
-function ownKeys(object, enumerableOnly) {
-  var keys = Object.keys(object);
-
-  if (Object.getOwnPropertySymbols) {
-    var symbols = Object.getOwnPropertySymbols(object);
-    if (enumerableOnly) symbols = symbols.filter(function (sym) {
-      return Object.getOwnPropertyDescriptor(object, sym).enumerable;
-    });
-    keys.push.apply(keys, symbols);
-  }
-
-  return keys;
-}
-
-function _objectSpread2(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-
-    if (i % 2) {
-      ownKeys(Object(source), true).forEach(function (key) {
-        _defineProperty(target, key, source[key]);
-      });
-    } else if (Object.getOwnPropertyDescriptors) {
-      Object.defineProperties(target, Object.getOwnPropertyDescriptors(source));
-    } else {
-      ownKeys(Object(source)).forEach(function (key) {
-        Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key));
-      });
-    }
-  }
-
-  return target;
-}
-
-function _objectWithoutPropertiesLoose(source, excluded) {
-  if (source == null) return {};
-  var target = {};
-  var sourceKeys = Object.keys(source);
-  var key, i;
-
-  for (i = 0; i < sourceKeys.length; i++) {
-    key = sourceKeys[i];
-    if (excluded.indexOf(key) >= 0) continue;
-    target[key] = source[key];
-  }
-
-  return target;
-}
-
-function _objectWithoutProperties(source, excluded) {
-  if (source == null) return {};
-
-  var target = _objectWithoutPropertiesLoose(source, excluded);
-
-  var key, i;
-
-  if (Object.getOwnPropertySymbols) {
-    var sourceSymbolKeys = Object.getOwnPropertySymbols(source);
-
-    for (i = 0; i < sourceSymbolKeys.length; i++) {
-      key = sourceSymbolKeys[i];
-      if (excluded.indexOf(key) >= 0) continue;
-      if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue;
-      target[key] = source[key];
-    }
-  }
-
-  return target;
-}
-
-function _toConsumableArray(arr) {
-  return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread();
-}
-
-function _arrayWithoutHoles(arr) {
-  if (Array.isArray(arr)) {
-    for (var i = 0, arr2 = new Array(arr.length); i < arr.length; i++) arr2[i] = arr[i];
-
-    return arr2;
-  }
-}
-
-function _iterableToArray(iter) {
-  if (Symbol.iterator in Object(iter) || Object.prototype.toString.call(iter) === "[object Arguments]") return Array.from(iter);
-}
-
-function _nonIterableSpread() {
-  throw new TypeError("Invalid attempt to spread non-iterable instance");
-}
-
-// Get CSS class list from a props object
-function classList(props) {
-  var _classes;
-
-  var spin = props.spin,
-      pulse = props.pulse,
-      fixedWidth = props.fixedWidth,
-      inverse = props.inverse,
-      border = props.border,
-      listItem = props.listItem,
-      flip = props.flip,
-      size = props.size,
-      rotation = props.rotation,
-      pull = props.pull; // map of CSS class names to properties
-
-  var classes = (_classes = {
-    'fa-spin': spin,
-    'fa-pulse': pulse,
-    'fa-fw': fixedWidth,
-    'fa-inverse': inverse,
-    'fa-border': border,
-    'fa-li': listItem,
-    'fa-flip-horizontal': flip === 'horizontal' || flip === 'both',
-    'fa-flip-vertical': flip === 'vertical' || flip === 'both'
-  }, _defineProperty(_classes, "fa-".concat(size), typeof size !== 'undefined' && size !== null), _defineProperty(_classes, "fa-rotate-".concat(rotation), typeof rotation !== 'undefined' && rotation !== null && rotation !== 0), _defineProperty(_classes, "fa-pull-".concat(pull), typeof pull !== 'undefined' && pull !== null), _defineProperty(_classes, 'fa-swap-opacity', props.swapOpacity), _classes); // map over all the keys in the classes object
-  // return an array of the keys where the value for the key is not null
-
-  return Object.keys(classes).map(function (key) {
-    return classes[key] ? key : null;
-  }).filter(function (key) {
-    return key;
-  });
-}
-
-// Camelize taken from humps
-// humps is copyright © 2012+ Dom Christie
-// Released under the MIT license.
-// Performant way to determine if object coerces to a number
-function _isNumerical(obj) {
-  obj = obj - 0; // eslint-disable-next-line no-self-compare
-
-  return obj === obj;
-}
-
-function camelize(string) {
-  if (_isNumerical(string)) {
-    return string;
-  } // eslint-disable-next-line no-useless-escape
-
-
-  string = string.replace(/[\-_\s]+(.)?/g, function (match, chr) {
-    return chr ? chr.toUpperCase() : '';
-  }); // Ensure 1st char is always lowercase
-
-  return string.substr(0, 1).toLowerCase() + string.substr(1);
-}
-
-function capitalize(val) {
-  return val.charAt(0).toUpperCase() + val.slice(1);
-}
-
-function styleToObject(style) {
-  return style.split(';').map(function (s) {
-    return s.trim();
-  }).filter(function (s) {
-    return s;
-  }).reduce(function (acc, pair) {
-    var i = pair.indexOf(':');
-    var prop = camelize(pair.slice(0, i));
-    var value = pair.slice(i + 1).trim();
-    prop.startsWith('webkit') ? acc[capitalize(prop)] = value : acc[prop] = value;
-    return acc;
-  }, {});
-}
-
-function convert(createElement, element) {
-  var extraProps = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
-
-  if (typeof element === 'string') {
-    return element;
-  }
-
-  var children = (element.children || []).map(function (child) {
-    return convert(createElement, child);
-  });
-  /* eslint-disable dot-notation */
-
-  var mixins = Object.keys(element.attributes || {}).reduce(function (acc, key) {
-    var val = element.attributes[key];
-
-    switch (key) {
-      case 'class':
-        acc.attrs['className'] = val;
-        delete element.attributes['class'];
-        break;
-
-      case 'style':
-        acc.attrs['style'] = styleToObject(val);
-        break;
-
-      default:
-        if (key.indexOf('aria-') === 0 || key.indexOf('data-') === 0) {
-          acc.attrs[key.toLowerCase()] = val;
-        } else {
-          acc.attrs[camelize(key)] = val;
-        }
-
-    }
-
-    return acc;
-  }, {
-    attrs: {}
-  });
-
-  var _extraProps$style = extraProps.style,
-      existingStyle = _extraProps$style === void 0 ? {} : _extraProps$style,
-      remaining = _objectWithoutProperties(extraProps, ["style"]);
-
-  mixins.attrs['style'] = _objectSpread2({}, mixins.attrs['style'], {}, existingStyle);
-  /* eslint-enable */
-
-  return createElement.apply(void 0, [element.tag, _objectSpread2({}, mixins.attrs, {}, remaining)].concat(_toConsumableArray(children)));
-}
-
-var PRODUCTION = false;
-
-try {
-  PRODUCTION = "development" === 'production';
-} catch (e) {}
-
-function log () {
-  if (!PRODUCTION && console && typeof console.error === 'function') {
-    var _console;
-
-    (_console = console).error.apply(_console, arguments);
-  }
-}
-
-function normalizeIconArgs(icon) {
-  // this has everything that it needs to be rendered which means it was probably imported
-  // directly from an icon svg package
-  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName && icon.icon) {
-    return icon;
-  }
-
-  if (_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.icon) {
-    return _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.icon(icon);
-  } // if the icon is null, there's nothing to do
-
-
-  if (icon === null) {
-    return null;
-  } // if the icon is an object and has a prefix and an icon name, return it
-
-
-  if (icon && _typeof(icon) === 'object' && icon.prefix && icon.iconName) {
-    return icon;
-  } // if it's an array with length of two
-
-
-  if (Array.isArray(icon) && icon.length === 2) {
-    // use the first item as prefix, second as icon name
-    return {
-      prefix: icon[0],
-      iconName: icon[1]
-    };
-  } // if it's a string, use it as the icon name
-
-
-  if (typeof icon === 'string') {
-    return {
-      prefix: 'fas',
-      iconName: icon
-    };
-  }
-}
-
-// creates an object with a key of key
-// and a value of value
-// if certain conditions are met
-function objectWithKey(key, value) {
-  // if the value is a non-empty array
-  // or it's not an array but it is truthy
-  // then create the object with the key and the value
-  // if not, return an empty array
-  return Array.isArray(value) && value.length > 0 || !Array.isArray(value) && value ? _defineProperty({}, key, value) : {};
-}
-
-function FontAwesomeIcon(_ref) {
-  var forwardedRef = _ref.forwardedRef,
-      props = _objectWithoutProperties(_ref, ["forwardedRef"]);
-
-  var iconArgs = props.icon,
-      maskArgs = props.mask,
-      symbol = props.symbol,
-      className = props.className,
-      title = props.title,
-      titleId = props.titleId;
-  var iconLookup = normalizeIconArgs(iconArgs);
-  var classes = objectWithKey('classes', [].concat(_toConsumableArray(classList(props)), _toConsumableArray(className.split(' '))));
-  var transform = objectWithKey('transform', typeof props.transform === 'string' ? _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.parse.transform(props.transform) : props.transform);
-  var mask = objectWithKey('mask', normalizeIconArgs(maskArgs));
-  var renderedIcon = (0,_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_0__.icon)(iconLookup, _objectSpread2({}, classes, {}, transform, {}, mask, {
-    symbol: symbol,
-    title: title,
-    titleId: titleId
-  }));
-
-  if (!renderedIcon) {
-    log('Could not find icon', iconLookup);
-    return null;
-  }
-
-  var abstract = renderedIcon.abstract;
-  var extraProps = {
-    ref: forwardedRef
-  };
-  Object.keys(props).forEach(function (key) {
-    // eslint-disable-next-line no-prototype-builtins
-    if (!FontAwesomeIcon.defaultProps.hasOwnProperty(key)) {
-      extraProps[key] = props[key];
-    }
-  });
-  return convertCurry(abstract[0], extraProps);
-}
-FontAwesomeIcon.displayName = 'FontAwesomeIcon';
-FontAwesomeIcon.propTypes = {
-  border: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  className: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
-  mask: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  fixedWidth: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  inverse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  flip: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['horizontal', 'vertical', 'both']),
-  icon: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().object), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().array), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  listItem: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  pull: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['right', 'left']),
-  pulse: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  rotation: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf([0, 90, 180, 270]),
-  size: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOf(['lg', 'xs', 'sm', '1x', '2x', '3x', '4x', '5x', '6x', '7x', '8x', '9x', '10x']),
-  spin: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool),
-  symbol: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string)]),
-  title: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().string),
-  transform: prop_types__WEBPACK_IMPORTED_MODULE_1___default().oneOfType([(prop_types__WEBPACK_IMPORTED_MODULE_1___default().string), (prop_types__WEBPACK_IMPORTED_MODULE_1___default().object)]),
-  swapOpacity: (prop_types__WEBPACK_IMPORTED_MODULE_1___default().bool)
-};
-FontAwesomeIcon.defaultProps = {
-  border: false,
-  className: '',
-  mask: null,
-  fixedWidth: false,
-  inverse: false,
-  flip: null,
-  icon: null,
-  listItem: false,
-  pull: null,
-  pulse: false,
-  rotation: null,
-  size: null,
-  spin: false,
-  symbol: false,
-  title: '',
-  transform: null,
-  swapOpacity: false
-};
-var convertCurry = convert.bind(null, (react__WEBPACK_IMPORTED_MODULE_2___default().createElement));
-
-
-
-
-/***/ }),
-
-/***/ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js":
-/*!**********************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js ***!
-  \**********************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "GatsbyImage": () => (/* binding */ Y),
-/* harmony export */   "MainImage": () => (/* binding */ q),
-/* harmony export */   "Placeholder": () => (/* binding */ C),
-/* harmony export */   "StaticImage": () => (/* binding */ J),
-/* harmony export */   "generateImageData": () => (/* binding */ y),
-/* harmony export */   "getImage": () => (/* binding */ R),
-/* harmony export */   "getImageData": () => (/* binding */ W),
-/* harmony export */   "getLowResolutionImageURL": () => (/* binding */ w),
-/* harmony export */   "getSrc": () => (/* binding */ x),
-/* harmony export */   "getSrcSet": () => (/* binding */ I),
-/* harmony export */   "withArtDirection": () => (/* binding */ j)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9279);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var common_tags__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! common-tags */ "./node_modules/common-tags/es/index.js");
-/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! camelcase */ "./node_modules/gatsby-plugin-image/node_modules/camelcase/index.js");
-/* harmony import */ var camelcase__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(camelcase__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
-
-
-
-
-
-
-function s() {
-  return s = Object.assign || function (e) {
-    for (var t = 1; t < arguments.length; t++) {
-      var a = arguments[t];
-
-      for (var i in a) Object.prototype.hasOwnProperty.call(a, i) && (e[i] = a[i]);
-    }
-
-    return e;
-  }, s.apply(this, arguments);
-}
-
-function l(e, t) {
-  if (null == e) return {};
-  var a,
-      i,
-      r = {},
-      n = Object.keys(e);
-
-  for (i = 0; i < n.length; i++) t.indexOf(a = n[i]) >= 0 || (r[a] = e[a]);
-
-  return r;
-}
-
-var d,
-    u = [.25, .5, 1, 2],
-    c = [750, 1080, 1366, 1920],
-    h = [320, 654, 768, 1024, 1366, 1600, 1920, 2048, 2560, 3440, 3840, 4096],
-    g = function (e) {
-  return console.warn(e);
-},
-    p = function (e, t) {
-  return e - t;
-},
-    m = function (e) {
-  return e.map(function (e) {
-    return e.src + " " + e.width + "w";
-  }).join(",\n");
-};
-
-function f(e) {
-  var t = e.lastIndexOf(".");
-
-  if (-1 !== t) {
-    var a = e.substr(t + 1);
-    if ("jpeg" === a) return "jpg";
-    if (3 === a.length || 4 === a.length) return a;
-  }
-}
-
-function v(e) {
-  var t = e.layout,
-      a = void 0 === t ? "constrained" : t,
-      i = e.width,
-      n = e.height,
-      o = e.sourceMetadata,
-      l = e.breakpoints,
-      d = e.aspectRatio,
-      u = e.formats,
-      c = void 0 === u ? ["auto", "webp"] : u;
-  return c = c.map(function (e) {
-    return e.toLowerCase();
-  }), a = camelcase__WEBPACK_IMPORTED_MODULE_2___default()(a), i && n ? s({}, e, {
-    formats: c,
-    layout: a,
-    aspectRatio: i / n
-  }) : (o.width && o.height && !d && (d = o.width / o.height), "fullWidth" === a ? (i = i || o.width || l[l.length - 1], n = n || Math.round(i / (d || 1.3333333333333333))) : (i || (i = n && d ? n * d : o.width ? o.width : n ? Math.round(n / 1.3333333333333333) : 800), d && !n ? n = Math.round(i / d) : d || (d = i / n)), s({}, e, {
-    width: i,
-    height: n,
-    aspectRatio: d,
-    layout: a,
-    formats: c
-  }));
-}
-
-function w(e, t) {
-  var a;
-  return void 0 === t && (t = 20), null == (a = (0, (e = v(e)).generateImageSource)(e.filename, t, Math.round(t / e.aspectRatio), e.sourceMetadata.format || "jpg", e.fit, e.options)) ? void 0 : a.src;
-}
-
-function y(e) {
-  var t,
-      a = (e = v(e)).pluginName,
-      r = e.sourceMetadata,
-      n = e.generateImageSource,
-      o = e.layout,
-      l = e.fit,
-      h = e.options,
-      p = e.width,
-      w = e.height,
-      y = e.filename,
-      M = e.reporter,
-      S = void 0 === M ? {
-    warn: g
-  } : M,
-      N = e.backgroundColor,
-      R = e.placeholderURL;
-  if (a || S.warn('[gatsby-plugin-image] "generateImageData" was not passed a plugin name'), "function" != typeof n) throw new Error("generateImageSource must be a function");
-  r && (r.width || r.height) ? r.format || (r.format = f(y)) : r = {
-    width: p,
-    height: w,
-    format: (null == (t = r) ? void 0 : t.format) || f(y) || "auto"
-  };
-  var x = new Set(e.formats);
-  (0 === x.size || x.has("auto") || x.has("")) && (x.delete("auto"), x.delete(""), x.add(r.format)), x.has("jpg") && x.has("png") && (S.warn("[" + a + "] Specifying both 'jpg' and 'png' formats is not supported. Using 'auto' instead"), x.delete("jpg" === r.format ? "png" : "jpg"));
-
-  var I = function (e) {
-    var t = e.filename,
-        a = e.layout,
-        r = void 0 === a ? "constrained" : a,
-        n = e.sourceMetadata,
-        o = e.reporter,
-        l = void 0 === o ? {
-      warn: g
-    } : o,
-        h = e.breakpoints,
-        p = void 0 === h ? c : h,
-        m = Object.entries({
-      width: e.width,
-      height: e.height
-    }).filter(function (e) {
-      var t = e[1];
-      return "number" == typeof t && t < 1;
-    });
-    if (m.length) throw new Error("Specified dimensions for images must be positive numbers (> 0). Problem dimensions you have are " + m.map(function (e) {
-      return e.join(": ");
-    }).join(", "));
-    return "fixed" === r ? function (e) {
-      var t = e.filename,
-          a = e.sourceMetadata,
-          r = e.width,
-          n = e.height,
-          o = e.fit,
-          s = void 0 === o ? "cover" : o,
-          l = e.outputPixelDensities,
-          c = e.reporter,
-          h = void 0 === c ? {
-        warn: g
-      } : c,
-          p = a.width / a.height,
-          m = b(void 0 === l ? u : l);
-
-      if (r && n) {
-        var f = k(a, {
-          width: r,
-          height: n,
-          fit: s
-        });
-        r = f.width, n = f.height, p = f.aspectRatio;
-      }
-
-      r ? n || (n = Math.round(r / p)) : r = n ? Math.round(n * p) : 800;
-      var v,
-          w,
-          y = r;
-
-      if (a.width < r || a.height < n) {
-        var E = a.width < r ? "width" : "height";
-        h.warn((0,common_tags__WEBPACK_IMPORTED_MODULE_1__.stripIndent)(d || (v = ["\n    The requested ", ' "', 'px" for the image ', " was larger than the actual image ", " of ", "px. If possible, replace the current image with a larger one."], w || (w = v.slice(0)), v.raw = w, d = v), E, "width" === E ? r : n, t, E, a[E])), "width" === E ? (r = a.width, n = Math.round(r / p)) : r = (n = a.height) * p;
-      }
-
-      return {
-        sizes: m.filter(function (e) {
-          return e >= 1;
-        }).map(function (e) {
-          return Math.round(e * r);
-        }).filter(function (e) {
-          return e <= a.width;
-        }),
-        aspectRatio: p,
-        presentationWidth: y,
-        presentationHeight: Math.round(y / p),
-        unscaledWidth: r
-      };
-    }(e) : "constrained" === r ? E(e) : "fullWidth" === r ? E(s({
-      breakpoints: p
-    }, e)) : (l.warn("No valid layout was provided for the image at " + t + ". Valid image layouts are fixed, fullWidth, and constrained. Found " + r), {
-      sizes: [n.width],
-      presentationWidth: n.width,
-      presentationHeight: n.height,
-      aspectRatio: n.width / n.height,
-      unscaledWidth: n.width
-    });
-  }(s({}, e, {
-    sourceMetadata: r
-  })),
-      W = {
-    sources: []
-  },
-      j = e.sizes;
-
-  j || (j = function (e, t) {
-    switch (t) {
-      case "constrained":
-        return "(min-width: " + e + "px) " + e + "px, 100vw";
-
-      case "fixed":
-        return e + "px";
-
-      case "fullWidth":
-        return "100vw";
-
-      default:
-        return;
-    }
-  }(I.presentationWidth, o)), x.forEach(function (e) {
-    var t = I.sizes.map(function (t) {
-      var i = n(y, t, Math.round(t / I.aspectRatio), e, l, h);
-      if (null != i && i.width && i.height && i.src && i.format) return i;
-      S.warn("[" + a + "] The resolver for image " + y + " returned an invalid value.");
-    }).filter(Boolean);
-
-    if ("jpg" === e || "png" === e || "auto" === e) {
-      var i = t.find(function (e) {
-        return e.width === I.unscaledWidth;
-      }) || t[0];
-      i && (W.fallback = {
-        src: i.src,
-        srcSet: m(t),
-        sizes: j
-      });
-    } else {
-      var r;
-      null == (r = W.sources) || r.push({
-        srcSet: m(t),
-        sizes: j,
-        type: "image/" + e
-      });
-    }
-  });
-  var _ = {
-    images: W,
-    layout: o,
-    backgroundColor: N
-  };
-
-  switch (R && (_.placeholder = {
-    fallback: R
-  }), o) {
-    case "fixed":
-      _.width = I.presentationWidth, _.height = I.presentationHeight;
-      break;
-
-    case "fullWidth":
-      _.width = 1, _.height = 1 / I.aspectRatio;
-      break;
-
-    case "constrained":
-      _.width = e.width || I.presentationWidth || 1, _.height = (_.width || 1) / I.aspectRatio;
-  }
-
-  return _;
-}
-
-var b = function (e) {
-  return Array.from(new Set([1].concat(e))).sort(p);
-};
-
-function E(e) {
-  var t,
-      a = e.sourceMetadata,
-      i = e.width,
-      r = e.height,
-      n = e.fit,
-      o = void 0 === n ? "cover" : n,
-      s = e.outputPixelDensities,
-      l = e.breakpoints,
-      d = e.layout,
-      c = a.width / a.height,
-      h = b(void 0 === s ? u : s);
-
-  if (i && r) {
-    var g = k(a, {
-      width: i,
-      height: r,
-      fit: o
-    });
-    i = g.width, r = g.height, c = g.aspectRatio;
-  }
-
-  i = i && Math.min(i, a.width), r = r && Math.min(r, a.height), i || r || (r = (i = Math.min(800, a.width)) / c), i || (i = r * c);
-  var m = i;
-  return (a.width < i || a.height < r) && (i = a.width, r = a.height), i = Math.round(i), (null == l ? void 0 : l.length) > 0 ? (t = l.filter(function (e) {
-    return e <= a.width;
-  })).length < l.length && !t.includes(a.width) && t.push(a.width) : t = (t = h.map(function (e) {
-    return Math.round(e * i);
-  })).filter(function (e) {
-    return e <= a.width;
-  }), "constrained" !== d || t.includes(i) || t.push(i), {
-    sizes: t = t.sort(p),
-    aspectRatio: c,
-    presentationWidth: m,
-    presentationHeight: Math.round(m / c),
-    unscaledWidth: i
-  };
-}
-
-function k(e, t) {
-  var a = e.width / e.height,
-      i = t.width,
-      r = t.height;
-
-  switch (t.fit) {
-    case "fill":
-      i = t.width ? t.width : e.width, r = t.height ? t.height : e.height;
-      break;
-
-    case "inside":
-      var n = t.width ? t.width : Number.MAX_SAFE_INTEGER,
-          o = t.height ? t.height : Number.MAX_SAFE_INTEGER;
-      i = Math.min(n, Math.round(o * a)), r = Math.min(o, Math.round(n / a));
-      break;
-
-    case "outside":
-      var s = t.width ? t.width : 0,
-          l = t.height ? t.height : 0;
-      i = Math.max(s, Math.round(l * a)), r = Math.max(l, Math.round(s / a));
-      break;
-
-    default:
-      t.width && !t.height && (i = t.width, r = Math.round(t.width / a)), t.height && !t.width && (i = Math.round(t.height * a), r = t.height);
-  }
-
-  return {
-    width: i,
-    height: r,
-    aspectRatio: i / r
-  };
-}
-
-var M = ["baseUrl", "urlBuilder", "sourceWidth", "sourceHeight", "pluginName", "formats", "breakpoints", "options"],
-    S = ["images", "placeholder"];
-
-function N() {
-  return "undefined" != typeof GATSBY___IMAGE && GATSBY___IMAGE;
-}
-
-new Set();
-
-var R = function (e) {
-  var t;
-  return function (e) {
-    var t, a;
-    return Boolean(null == e || null == (t = e.images) || null == (a = t.fallback) ? void 0 : a.src);
-  }(e) ? e : function (e) {
-    return Boolean(null == e ? void 0 : e.gatsbyImageData);
-  }(e) ? e.gatsbyImageData : null == e || null == (t = e.childImageSharp) ? void 0 : t.gatsbyImageData;
-},
-    x = function (e) {
-  var t, a, i;
-  return null == (t = R(e)) || null == (a = t.images) || null == (i = a.fallback) ? void 0 : i.src;
-},
-    I = function (e) {
-  var t, a, i;
-  return null == (t = R(e)) || null == (a = t.images) || null == (i = a.fallback) ? void 0 : i.srcSet;
-};
-
-function W(e) {
-  var t,
-      a = e.baseUrl,
-      i = e.urlBuilder,
-      r = e.sourceWidth,
-      n = e.sourceHeight,
-      o = e.pluginName,
-      d = void 0 === o ? "getImageData" : o,
-      u = e.formats,
-      c = void 0 === u ? ["auto"] : u,
-      g = e.breakpoints,
-      p = e.options,
-      m = l(e, M);
-  return null != (t = g) && t.length || "fullWidth" !== m.layout && "FULL_WIDTH" !== m.layout || (g = h), y(s({}, m, {
-    pluginName: d,
-    generateImageSource: function (e, t, a, r) {
-      return {
-        width: t,
-        height: a,
-        format: r,
-        src: i({
-          baseUrl: e,
-          width: t,
-          height: a,
-          options: p,
-          format: r
-        })
-      };
-    },
-    filename: a,
-    formats: c,
-    breakpoints: g,
-    sourceMetadata: {
-      width: r,
-      height: n,
-      format: "auto"
-    }
-  }));
-}
-
-function j(e, t) {
-  var a,
-      i,
-      r,
-      n = e.images,
-      o = e.placeholder,
-      d = s({}, l(e, S), {
-    images: s({}, n, {
-      sources: []
-    }),
-    placeholder: o && s({}, o, {
-      sources: []
-    })
-  });
-  return t.forEach(function (t) {
-    var a,
-        i = t.media,
-        r = t.image;
-    i ? (r.layout !== e.layout && "development" === "development" && console.warn('[gatsby-plugin-image] Mismatched image layout: expected "' + e.layout + '" but received "' + r.layout + '". All art-directed images use the same layout as the default image'), (a = d.images.sources).push.apply(a, r.images.sources.map(function (e) {
-      return s({}, e, {
-        media: i
-      });
-    }).concat([{
-      media: i,
-      srcSet: r.images.fallback.srcSet
-    }])), d.placeholder && d.placeholder.sources.push({
-      media: i,
-      srcSet: r.placeholder.fallback
-    })) :  true && console.warn("[gatsby-plugin-image] All art-directed images passed to must have a value set for `media`. Skipping.");
-  }), (a = d.images.sources).push.apply(a, n.sources), null != o && o.sources && (null == (i = d.placeholder) || (r = i.sources).push.apply(r, o.sources)), d;
-}
-
-var _,
-    T = ["src", "srcSet", "loading", "alt", "shouldLoad", "innerRef"],
-    A = ["fallback", "sources", "shouldLoad"],
-    O = function (t) {
-  var a = t.src,
-      i = t.srcSet,
-      r = t.loading,
-      n = t.alt,
-      o = void 0 === n ? "" : n,
-      d = t.shouldLoad,
-      u = t.innerRef,
-      c = l(t, T);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", s({}, c, {
-    decoding: "async",
-    loading: r,
-    src: d ? a : void 0,
-    "data-src": d ? void 0 : a,
-    srcSet: d ? i : void 0,
-    "data-srcset": d ? void 0 : i,
-    alt: o,
-    ref: u
-  }));
-},
-    z = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (t, a) {
-  var i = t.fallback,
-      r = t.sources,
-      n = void 0 === r ? [] : r,
-      o = t.shouldLoad,
-      d = void 0 === o || o,
-      u = l(t, A),
-      c = u.sizes || (null == i ? void 0 : i.sizes),
-      h = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(O, s({}, u, i, {
-    sizes: c,
-    shouldLoad: d,
-    innerRef: a
-  }));
-  return n.length ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("picture", null, n.map(function (t) {
-    var a = t.media,
-        i = t.srcSet,
-        r = t.type;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("source", {
-      key: a + "-" + r + "-" + i,
-      type: r,
-      media: a,
-      srcSet: d ? i : void 0,
-      "data-srcset": d ? void 0 : i,
-      sizes: c
-    });
-  }), h) : h;
-});
-
-O.propTypes = {
-  src: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-  alt: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-  sizes: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-  srcSet: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_3__.bool
-}, z.displayName = "Picture", z.propTypes = {
-  alt: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-  shouldLoad: prop_types__WEBPACK_IMPORTED_MODULE_3__.bool,
-  fallback: prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({
-    src: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_3__.string
-  }),
-  sources: prop_types__WEBPACK_IMPORTED_MODULE_3__.arrayOf(prop_types__WEBPACK_IMPORTED_MODULE_3__.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({
-    media: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-    type: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired
-  }), prop_types__WEBPACK_IMPORTED_MODULE_3__.exact({
-    media: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-    type: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired,
-    sizes: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-    srcSet: prop_types__WEBPACK_IMPORTED_MODULE_3__.string.isRequired
-  })]))
-};
-
-var L = ["fallback"],
-    C = function (t) {
-  var a = t.fallback,
-      i = l(t, L);
-  return a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z, s({}, i, {
-    fallback: {
-      src: a
-    },
-    "aria-hidden": !0,
-    alt: ""
-  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", s({}, i));
-};
-
-C.displayName = "Placeholder", C.propTypes = {
-  fallback: prop_types__WEBPACK_IMPORTED_MODULE_3__.string,
-  sources: null == (_ = z.propTypes) ? void 0 : _.sources,
-  alt: function (e, t, a) {
-    return e[t] ? new Error("Invalid prop `" + t + "` supplied to `" + a + "`. Validation failed.") : null;
-  }
-};
-var q = /*#__PURE__*/(0,react__WEBPACK_IMPORTED_MODULE_0__.forwardRef)(function (t, a) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement((react__WEBPACK_IMPORTED_MODULE_0___default().Fragment), null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z, s({
-    ref: a
-  }, t)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("noscript", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(z, s({}, t, {
-    shouldLoad: !0
-  }))));
-});
-q.displayName = "MainImage", q.propTypes = z.propTypes;
-
-var D = ["children"],
-    P = function () {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("script", {
-    type: "module",
-    dangerouslySetInnerHTML: {
-      __html: 'const t="undefined"!=typeof HTMLImageElement&&"loading"in HTMLImageElement.prototype;if(t){const t=document.querySelectorAll("img[data-main-image]");for(let e of t){e.dataset.src&&(e.setAttribute("src",e.dataset.src),e.removeAttribute("data-src")),e.dataset.srcset&&(e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset"));const t=e.parentNode.querySelectorAll("source[data-srcset]");for(let e of t)e.setAttribute("srcset",e.dataset.srcset),e.removeAttribute("data-srcset");e.complete&&(e.style.opacity=1)}}'
-    }
-  });
-},
-    H = function (t) {
-  var a = t.layout,
-      i = t.width,
-      r = t.height;
-  return "fullWidth" === a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    "aria-hidden": !0,
-    style: {
-      paddingTop: r / i * 100 + "%"
-    }
-  }) : "constrained" === a ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-    style: {
-      maxWidth: i,
-      display: "block"
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("img", {
-    alt: "",
-    role: "presentation",
-    "aria-hidden": "true",
-    src: "data:image/svg+xml;charset=utf-8,%3Csvg height='" + r + "' width='" + i + "' xmlns='http://www.w3.org/2000/svg' version='1.1'%3E%3C/svg%3E",
-    style: {
-      maxWidth: "100%",
-      display: "block",
-      position: "static"
-    }
-  })) : null;
-},
-    F = function (t) {
-  var i = t.children,
-      r = l(t, D);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(H, s({}, r)), i, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(P, null));
-},
-    B = ["as", "children"],
-    G = ["as", "className", "class", "style", "image", "loading", "imgClassName", "imgStyle", "backgroundColor", "objectFit", "objectPosition"],
-    V = ["style", "className"],
-    U = function (e) {
-  return e.replace(/\n/g, "");
-},
-    X = function (t) {
-  var a = t.as,
-      i = void 0 === a ? "div" : a,
-      r = t.children,
-      n = l(t, B);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(i, s({}, n), r);
-},
-    Y = function (t) {
-  var a = t.as,
-      i = t.className,
-      r = t.class,
-      n = t.style,
-      o = t.image,
-      d = t.loading,
-      u = void 0 === d ? "lazy" : d,
-      c = t.imgClassName,
-      h = t.imgStyle,
-      g = t.backgroundColor,
-      p = t.objectFit,
-      m = t.objectPosition,
-      f = l(t, G);
-  if (!o) return console.warn("[gatsby-plugin-image] Missing image prop"), null;
-  r && (i = r), h = s({
-    objectFit: p,
-    objectPosition: m,
-    backgroundColor: g
-  }, h);
-
-  var v = o.width,
-      w = o.height,
-      y = o.layout,
-      b = o.images,
-      E = o.placeholder,
-      k = o.backgroundColor,
-      M = function (e, t, a) {
-    var i = {},
-        r = "gatsby-image-wrapper";
-    return N() || (i.position = "relative", i.overflow = "hidden"), "fixed" === a ? (i.width = e, i.height = t) : "constrained" === a && (N() || (i.display = "inline-block", i.verticalAlign = "top"), r = "gatsby-image-wrapper gatsby-image-wrapper-constrained"), {
-      className: r,
-      "data-gatsby-image-wrapper": "",
-      style: i
-    };
-  }(v, w, y),
-      S = M.style,
-      R = M.className,
-      x = l(M, V),
-      I = {
-    fallback: void 0,
-    sources: []
-  };
-
-  return b.fallback && (I.fallback = s({}, b.fallback, {
-    srcSet: b.fallback.srcSet ? U(b.fallback.srcSet) : void 0
-  })), b.sources && (I.sources = b.sources.map(function (e) {
-    return s({}, e, {
-      srcSet: U(e.srcSet)
-    });
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(X, s({}, x, {
-    as: a,
-    style: s({}, S, n, {
-      backgroundColor: g
-    }),
-    className: R + (i ? " " + i : "")
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(F, {
-    layout: y,
-    width: v,
-    height: w
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(C, s({}, function (e, t, a, i, r, n, o, l) {
-    var d = {};
-    n && (d.backgroundColor = n, "fixed" === a ? (d.width = i, d.height = r, d.backgroundColor = n, d.position = "relative") : ("constrained" === a || "fullWidth" === a) && (d.position = "absolute", d.top = 0, d.left = 0, d.bottom = 0, d.right = 0)), o && (d.objectFit = o), l && (d.objectPosition = l);
-    var u = s({}, e, {
-      "aria-hidden": !0,
-      "data-placeholder-image": "",
-      style: s({
-        opacity: 1,
-        transition: "opacity 500ms linear"
-      }, d)
-    });
-    return N() || (u.style = {
-      height: "100%",
-      left: 0,
-      position: "absolute",
-      top: 0,
-      width: "100%"
-    }), u;
-  }(E, 0, y, v, w, k, p, m))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(q, s({
-    "data-gatsby-image-ssr": "",
-    className: c
-  }, f, function (e, t, a, i, r, n, o, l) {
-    return void 0 === l && (l = {}), N() || (l = s({
-      height: "100%",
-      left: 0,
-      position: "absolute",
-      top: 0,
-      transform: "translateZ(0)",
-      transition: "opacity 250ms linear",
-      width: "100%",
-      willChange: "opacity"
-    }, l)), s({}, a, {
-      loading: i,
-      shouldLoad: e,
-      "data-main-image": "",
-      style: s({}, l, {
-        opacity: 0
-      }),
-      onLoad: function (e) {
-        var t = e.currentTarget,
-            a = new Image();
-        a.src = t.currentSrc, a.decode ? a.decode().catch(function () {}).then(function () {
-          r(!0);
-        }) : r(!0);
-      },
-      ref: void 0
-    });
-  }("eager" === u, 0, I, u, void 0, 0, 0, h)))));
-},
-    Z = ["src", "__imageData", "__error", "width", "height", "aspectRatio", "tracedSVGOptions", "placeholder", "formats", "quality", "transformOptions", "jpgOptions", "pngOptions", "webpOptions", "avifOptions", "blurredOptions"],
-    J = function (t) {
-  return function (a) {
-    var i = a.src,
-        r = a.__imageData,
-        n = a.__error,
-        o = l(a, Z);
-    return n && console.warn(n), r ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(t, s({
-      image: r
-    }, o)) : (console.warn("Image not loaded", i), n || "development" !== "development" || console.warn('Please ensure that "gatsby-plugin-image" is included in the plugins array in gatsby-config.js, and that your version of gatsby is at least 2.24.78'), null);
-  };
-}(Y),
-    K = function (e, t) {
-  return "fullWidth" !== e.layout || "width" !== t && "height" !== t || !e[t] ? prop_types__WEBPACK_IMPORTED_MODULE_3___default().number.apply((prop_types__WEBPACK_IMPORTED_MODULE_3___default()), [e, t].concat([].slice.call(arguments, 2))) : new Error('"' + t + '" ' + e[t] + " may not be passed when layout is fullWidth.");
-},
-    Q = new Set(["fixed", "fullWidth", "constrained"]),
-    $ = {
-  src: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.isRequired),
-  alt: function (e, t, a) {
-    return e.alt || "" === e.alt ? prop_types__WEBPACK_IMPORTED_MODULE_3___default().string.apply((prop_types__WEBPACK_IMPORTED_MODULE_3___default()), [e, t, a].concat([].slice.call(arguments, 3))) : new Error('The "alt" prop is required in ' + a + '. If the image is purely presentational then pass an empty string: e.g. alt="". Learn more: https://a11y-style-guide.com/style-guide/section-media.html');
-  },
-  width: K,
-  height: K,
-  sizes: (prop_types__WEBPACK_IMPORTED_MODULE_3___default().string),
-  layout: function (e) {
-    if (void 0 !== e.layout && !Q.has(e.layout)) return new Error("Invalid value " + e.layout + '" provided for prop "layout". Defaulting to "constrained". Valid values are "fixed", "fullWidth" or "constrained".');
-  }
-};
-
-J.displayName = "StaticImage", J.propTypes = $;
-
+/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4593);
+/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(2031);
+const Seo=props=>{const data=(0,gatsby__WEBPACK_IMPORTED_MODULE_2__.useStaticQuery)("509033975");const title=props.pagetitle?`${props.pagetitle} | ${data.site.siteMetadata.title}`:data.site.siteMetadata.title;const description=props.pagedesc||data.site.siteMetadata.description;const url=props.pagepath?`${data.site.siteMetadata.siteUrl}${props.pagepath}`:data.site.siteMetadata.siteUrl;const imgurl=props.pageimg?`${data.site.siteMetadata.siteUrl}${props.pageimg}`:props.blogimg||`${data.site.siteMetadata.siteUrl}/thumb.jpg`;const imgw=props.pageimgw||1280;const imgh=props.pageimgh||640;return/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_1__.Helmet,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("html",{lang:data.site.siteMetadata.lang}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("title",null,title),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"description",content:description}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link",{rel:"canonical",href:url}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:site_name",content:data.site.siteMetadata.title}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:title",content:title}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:description",content:description}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:url",content:url}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:type",content:"website"}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:locale",content:data.site.siteMetadata.locale}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"fb:app_id",content:data.site.siteMetadata.fbappid}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:image",content:imgurl}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:image:width",content:imgw}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{property:"og:image:height",content:imgh}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("meta",{name:"twitter:card",content:"summary_large_image"}));};/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
 
 /***/ }),
 
-/***/ "./node_modules/gatsby-plugin-image/node_modules/camelcase/index.js":
-/*!**************************************************************************!*\
-  !*** ./node_modules/gatsby-plugin-image/node_modules/camelcase/index.js ***!
-  \**************************************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-const preserveCamelCase = string => {
-  let isLastCharLower = false;
-  let isLastCharUpper = false;
-  let isLastLastCharUpper = false;
-
-  for (let i = 0; i < string.length; i++) {
-    const character = string[i];
-
-    if (isLastCharLower && /[a-zA-Z]/.test(character) && character.toUpperCase() === character) {
-      string = string.slice(0, i) + '-' + string.slice(i);
-      isLastCharLower = false;
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = true;
-      i++;
-    } else if (isLastCharUpper && isLastLastCharUpper && /[a-zA-Z]/.test(character) && character.toLowerCase() === character) {
-      string = string.slice(0, i - 1) + '-' + string.slice(i - 1);
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = false;
-      isLastCharLower = true;
-    } else {
-      isLastCharLower = character.toLowerCase() === character && character.toUpperCase() !== character;
-      isLastLastCharUpper = isLastCharUpper;
-      isLastCharUpper = character.toUpperCase() === character && character.toLowerCase() !== character;
-    }
-  }
-
-  return string;
-};
-
-const camelCase = (input, options) => {
-  if (!(typeof input === 'string' || Array.isArray(input))) {
-    throw new TypeError('Expected the input to be `string | string[]`');
-  }
-
-  options = Object.assign({
-    pascalCase: false
-  }, options);
-
-  const postProcess = x => options.pascalCase ? x.charAt(0).toUpperCase() + x.slice(1) : x;
-
-  if (Array.isArray(input)) {
-    input = input.map(x => x.trim()).filter(x => x.length).join('-');
-  } else {
-    input = input.trim();
-  }
-
-  if (input.length === 0) {
-    return '';
-  }
-
-  if (input.length === 1) {
-    return options.pascalCase ? input.toUpperCase() : input.toLowerCase();
-  }
-
-  const hasUpperCase = input !== input.toLowerCase();
-
-  if (hasUpperCase) {
-    input = preserveCamelCase(input);
-  }
-
-  input = input.replace(/^[_.\- ]+/, '').toLowerCase().replace(/[_.\- ]+(\w|$)/g, (_, p1) => p1.toUpperCase()).replace(/\d+(\w|$)/g, m => m.toUpperCase());
-  return postProcess(input);
-};
-
-module.exports = camelCase; // TODO: Remove this for the next major release
-
-module.exports["default"] = camelCase;
-
-/***/ }),
-
-/***/ "./src/components/footer.js":
-/*!**********************************!*\
-  !*** ./src/components/footer.js ***!
-  \**********************************/
+/***/ 9616:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_3354381539_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/3354381539.json */ "./public/page-data/sq/d/3354381539.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-/* harmony import */ var gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! gatsby-plugin-image */ "./node_modules/gatsby-plugin-image/dist/gatsby-image.module.js");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "./node_modules/@fortawesome/react-fontawesome/index.es.js");
-/* harmony import */ var _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-brands-svg-icons */ "./node_modules/@fortawesome/free-brands-svg-icons/index.es.js");
-
-
-
-
-
-
-
-const Footer = () => {
-  const data = _public_page_data_sq_d_3354381539_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("footer", {
-    className: "footer"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-    className: "container"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-    className: "site"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_2__.Link, {
-    to: `/`
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("svg", {
-    width: "225.65",
-    height: "46.59",
-    version: "1.1",
-    id: "svg32"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("g", {
-    fill: "#479454",
-    id: "g26",
-    style: {
-      display: 'inline',
-      fill: '#ff0000'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1037",
-    d: "m 218.013,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "m 208.457,14.558 h -4.832 v 7.617 h 4.454 v 3.552 h -4.454 V 36.33 h -2.146 V 10.988 h 6.978 z M 198.296,36.33 h -2.209 V 10.988 h 2.209 z m -4.066,0 h -7.158 V 10.988 h 2.146 v 21.79 h 5.013 z",
-    id: "path1034",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1031",
-    d: "m 179.697,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "m 161.792,35.323 v -4.33 q 0.298,0.53 0.703,0.954 0.415,0.424 0.875,0.725 0.46,0.283 0.92,0.442 0.46,0.159 0.847,0.159 1.352,0 2.01,-0.884 0.667,-0.884 0.667,-2.562 0,-0.901 -0.225,-1.555 -0.216,-0.672 -0.613,-1.219 -0.397,-0.548 -0.938,-1.043 -0.532,-0.512 -1.145,-1.06 -0.658,-0.689 -1.226,-1.396 -0.568,-0.707 -0.992,-1.555 -0.415,-0.866 -0.658,-1.944 -0.234,-1.078 -0.234,-2.527 0,-1.785 0.406,-3.093 0.415,-1.325 1.082,-2.174 0.676,-0.866 1.533,-1.272 0.856,-0.424 1.749,-0.424 2.029,0 2.957,0.901 v 4.153 q -1.1,-1.555 -2.831,-1.555 -0.478,0 -0.956,0.177 -0.469,0.177 -0.847,0.583 -0.37,0.406 -0.604,1.043 -0.234,0.636 -0.234,1.537 0,0.848 0.18,1.467 0.18,0.619 0.523,1.131 0.352,0.512 0.847,1.007 0.505,0.477 1.163,1.043 0.676,0.689 1.271,1.449 0.604,0.76 1.055,1.679 0.46,0.919 0.721,2.05 0.27,1.113 0.27,2.545 0,1.926 -0.397,3.252 -0.397,1.325 -1.073,2.156 -0.667,0.831 -1.542,1.202 -0.875,0.371 -1.848,0.371 -0.325,0 -0.802,-0.106 -0.469,-0.088 -0.965,-0.283 -0.496,-0.177 -0.938,-0.442 -0.442,-0.265 -0.712,-0.601 z",
-    id: "path1028",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1025",
-    d: "m 153.759,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1022",
-    d: "m 139.803,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "m 132.789,36.33 h -7.158 V 10.988 h 2.146 v 21.79 h 5.013 z m -15.417,0 h -2.209 V 10.988 h 2.209 z",
-    id: "path1019",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1016",
-    d: "m 112.873,36.33 h -7.258 V 10.988 h 6.969 v 3.57 h -4.823 v 7.175 h 4.445 v 3.552 h -4.445 v 7.493 h 5.112 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "m 102.424,36.33 h -2.155 V 25.338 H 94.183 V 36.33 H 92.037 V 10.988 h 2.146 v 10.656 h 6.086 V 10.988 h 2.155 z m -12.162,0 h -2.353 l -1.163,-6.45 h -5.085 l -1.118,6.45 H 78.199 L 83.04,10.988 h 2.416 z M 86.178,26.451 84.384,16.343 q -0.081,-0.495 -0.171,-1.59 h -0.036 q -0.081,1.007 -0.18,1.59 L 82.22,26.451 Z M 78.136,36.33 H 75.63 l -2.065,-6.786 q -0.279,-0.937 -0.55,-1.59 -0.261,-0.672 -0.541,-1.096 -0.27,-0.424 -0.595,-0.619 -0.325,-0.194 -0.73,-0.194 H 70.284 V 36.33 H 68.147 V 10.988 h 4.255 q 0.911,0 1.677,0.424 0.766,0.424 1.334,1.29 0.568,0.848 0.884,2.138 0.325,1.272 0.325,2.987 0,1.343 -0.207,2.474 -0.198,1.113 -0.577,1.997 -0.37,0.866 -0.902,1.484 -0.523,0.619 -1.181,0.954 v 0.071 q 0.352,0.389 0.613,0.866 0.261,0.459 0.496,0.954 0.234,0.495 0.46,1.131 0.234,0.619 0.514,1.449 z M 70.283,14.399 v 8.235 h 1.785 q 0.496,0 0.911,-0.3 0.424,-0.3 0.73,-0.866 0.307,-0.566 0.478,-1.378 0.171,-0.813 0.171,-1.82 0,-1.82 -0.586,-2.845 Q 73.186,14.4 72.086,14.4 Z",
-    id: "path1013",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "path1010",
-    d: "m 59.519002,36.754 q -2.795,0 -4.481,-3.552 -1.677,-3.552 -1.677,-9.242 0,-6.115 1.713,-9.755 1.713,-3.64 4.652,-3.64 2.723,0 4.382,3.534 1.668,3.534 1.668,9.242 0,6.203 -1.704,9.808 -1.704,3.605 -4.553,3.605 z m 0.099,-22.497 q -1.776,0 -2.894,2.598 -1.109,2.598 -1.109,6.839 0,4.224 1.082,6.804 1.082,2.58 2.831,2.58 1.857,0 2.93,-2.456 1.073,-2.456 1.073,-6.874 0,-4.542 -1.046,-7.016 -1.037,-2.474 -2.867,-2.474 z",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "M 40.947,36.33 V 10.988 h 3.732 q 7.149,0 7.149,12.353 0,5.867 -1.983,9.437 -1.983,3.552 -5.319,3.552 z m 2.137,-21.772 v 18.22 h 1.713 q 2.263,0 3.516,-2.439 1.262,-2.439 1.262,-6.892 0,-8.889 -4.697,-8.889 z M 9.27,24.863 c -0.128,-1.347 0.032,-2.667 0.347,-3.974 0.512,-1.591 1.454,-3.01 2.345,-4.412 0.41,-0.562 1.041,-1.863 1.711,-2.16 0.096,-0.042 0.207,-0.029 0.311,-0.043 -6.375,0.152 -3.683,-0.443 -2.609,0.41 0.544,0.432 0.995,1.012 1.441,1.538 0.927,1.089 1.63,2.321 2.046,3.688 0.237,0.961 0.233,1.956 0.228,2.94 l -0.03,2.173 3.727,0.003 v 0 l 0.006,-2.178 c -0.013,-1.019 -0.01,-2.052 -0.243,-3.05 -0.449,-1.405 -1.171,-2.68 -2.103,-3.826 l -1.398,-1.63 c -0.026,-0.026 -0.637,-0.577 -0.755,-0.581 -1.334,-0.054 -2.669,0.038 -4.004,0.057 -0.938,0.534 -1.393,1.585 -1.963,2.457 -0.884,1.451 -1.853,2.9 -2.369,4.53 -0.31,1.336 -0.426,2.687 -0.425,4.059 H 9.27 Z M 25.659,23.51 c -0.014,-0.844 -0.091,-1.71 0.067,-2.547 0.12,-0.633 0.255,-0.868 0.501,-1.452 0.575,-1.262 1.564,-2.208 2.557,-3.142 l 0.995,-0.794 c 0.147,-0.084 0.315,-0.124 0.473,-0.186 -1.029,0.049 -2.072,-0.027 -3.087,0.146 -0.221,0.038 0.433,0.143 0.614,0.276 0.244,0.178 0.426,0.428 0.639,0.642 l 0.599,0.9 1.226,2.139 1.794,2.946 c 0.543,0.914 1.042,1.861 1.235,2.914 l 3.721,-0.07 v 0 c -0.217,-1.109 -0.758,-2.095 -1.361,-3.043 l -1.834,-2.931 -1.2,-2.157 -0.575,-0.96 c -0.184,-0.233 -0.763,-1.129 -1.216,-1.171 -3.647,-0.338 -3.759,-0.684 -5.668,1.053 -1.012,0.977 -2.015,1.966 -2.554,3.297 -0.231,0.594 -0.387,0.919 -0.509,1.555 -0.162,0.849 -0.088,1.727 -0.147,2.584 h 3.73 z m -14.374,9.098 2.885,3.26 c 1.32,1.483 2.431,1.641 4.338,1.714 2.662,-0.065 6.26,0.16 8.868,-1.05 0.282,-0.131 0.544,-0.302 0.816,-0.453 1.308,-0.954 2.427,-2.132 3.26,-3.52 0.353,-0.758 0.199,-0.375 0.466,-1.147 l -3.675,-0.124 v 0 c -0.258,0.72 -0.109,0.363 -0.45,1.07 -0.824,1.324 -1.888,2.47 -3.199,3.329 l -0.801,0.405 c -0.945,0.398 -1.991,0.594 -3.001,0.734 -0.386,0.053 -1.547,0.064 -1.162,0.124 0.804,0.126 1.628,0.05 2.442,0.076 -1.758,-0.01 -3.016,-0.062 -4.275,-1.429 l -2.789,-3.252 -3.719,0.264 z",
-    id: "path1007",
-    style: {
-      fill: '#ffffff'
-    }
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    d: "m 15.817,32.812 3.084,-0.006 c 0.899,-0.007 1.817,-0.064 2.698,-0.252 l 2.571,-0.392 2.334,-0.284 c 0.914,-0.113 1.836,-0.115 2.755,-0.125 l 1.636,-0.005 -3.649,-0.577 v 0 l -1.619,0.012 -2.793,0.163 -2.334,0.294 -2.582,0.398 c -0.874,0.127 -1.756,0.217 -2.641,0.194 a 732.99,732.99 0 0 1 -3.156,-0.006 l 3.695,0.585 z",
-    id: "path1004",
-    style: {
-      fill: '#ffffff'
-    }
-  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("defs", {
-    id: "defs30"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "B",
-    d: "M218.013 36.33h-7.258V10.988h6.969v3.57h-4.823v7.175h4.445v3.552h-4.445v7.493h5.112z"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("path", {
-    id: "C",
-    d: "M153.759 36.754q-2.795 0-4.481-3.552-1.677-3.552-1.677-9.242 0-6.115 1.713-9.755 1.713-3.64 4.652-3.64 2.723 0 4.382 3.534 1.668 3.534 1.668 9.242 0 6.203-1.704 9.808-1.704 3.605-4.553 3.605zm.099-22.497q-1.776 0-2.894 2.598-1.109 2.598-1.109 6.839 0 4.224 1.082 6.804 1.082 2.58 2.831 2.58 1.857 0 2.93-2.456 1.073-2.456 1.073-6.874 0-4.542-1.046-7.016-1.037-2.474-2.867-2.474z"
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("p", null, "\u3046\u3064\u75C5\u304B\u3089\u793E\u4F1A\u5FA9\u5E30\u306E\u4F53\u9A13\u8A18\u3092\u8A18\u9332\u3059\u308B\u30B5\u30A4\u30C8"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("ul", {
-    className: "sns"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
-    href: "https://twitter.com/Dorahei_Smile/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faTwitter
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-    className: "sr-only"
-  }, "Twitter"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
-    href: "https://facebook.com/RYUHEITORIYAMA/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faFacebookSquare
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-    className: "sr-only"
-  }, "Facebook"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
-    href: "http://instagram.com/Dorahei_Smile/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faInstagram
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-    className: "sr-only"
-  }, "Instagram"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("a", {
-    href: "http://youtube.com/channel/UC97HpZFHRfJTw0aOP6j1DMw/"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_3__.FontAwesomeIcon, {
-    icon: _fortawesome_free_brands_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faYoutube
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("span", {
-    className: "sr-only"
-  }, "Youtube"))))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("div", {
-    className: "back"
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(gatsby_plugin_image__WEBPACK_IMPORTED_MODULE_5__.GatsbyImage, {
-    image: data.pattern.childImageSharp.gatsbyImageData,
-    alt: "",
-    style: {
-      height: "100%"
-    }
-  })));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Footer);
-
-/***/ }),
-
-/***/ "./src/components/header.js":
-/*!**********************************!*\
-  !*** ./src/components/header.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(9279);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var gatsby__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! gatsby */ "./.cache/gatsby-browser-entry.js");
-
-
-
-const Header = () => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("header", {
-  className: "header"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "container"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", {
-  className: "site"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: `/`
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("svg", {
-  width: "225.65",
-  height: "46.59",
-  version: "1.1",
-  id: "svg37"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("defs", {
-  id: "defs31"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-  x: "44.680549",
-  y: 0,
-  width: "181.10164",
-  height: "46.663414",
-  id: "rect2710"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-  x: "44.680549",
-  y: 0,
-  width: "181.10164",
-  height: "46.663414",
-  id: "rect16958"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("rect", {
-  x: "44.680549",
-  y: 0,
-  width: "181.10164",
-  height: "46.663414",
-  id: "rect16964"
-})), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("desc", {
-  id: "desc33"
-}, "DORAHEI"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 218.01344,36.330022 h -7.25757 V 10.988261 h 6.96908 v 3.56976 h -4.82336 v 7.174864 h 4.44469 v 3.552088 h -4.44469 v 7.492962 h 5.11185 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path867"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 208.4569,14.558021 h -4.83236 v 7.616666 h 4.4537 v 3.552088 h -4.4537 v 10.603247 h -2.14571 V 10.988261 h 6.97807 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path865"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 198.2963,36.330022 h -2.20881 V 10.988261 h 2.20881 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path863"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 194.23026,36.330022 h -7.15839 V 10.988261 h 2.14572 v 21.789674 h 5.01267 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path861"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 179.69712,36.330022 h -7.25757 V 10.988261 h 6.96907 v 3.56976 h -4.82335 v 7.174864 h 4.44469 v 3.552088 h -4.44469 v 7.492962 h 5.11185 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path859"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 161.79212,35.322713 v -4.329658 q 0.29751,0.530161 0.70321,0.954292 0.41472,0.42413 0.87452,0.724556 0.45979,0.282753 0.91959,0.441802 0.45979,0.159046 0.84747,0.159046 1.35234,0 2.01048,-0.883605 0.66715,-0.883603 0.66715,-2.562451 0,-0.901276 -0.22539,-1.555142 -0.21636,-0.671539 -0.61306,-1.219372 -0.39668,-0.547837 -0.93762,-1.042653 -0.53192,-0.512492 -1.14498,-1.060326 -0.65814,-0.689212 -1.22612,-1.396095 -0.56799,-0.706882 -0.99172,-1.555142 -0.41472,-0.865933 -0.65814,-1.943929 -0.23441,-1.077997 -0.23441,-2.527107 0,-1.78488 0.4057,-3.092614 0.41473,-1.325406 1.08189,-2.173666 0.67616,-0.865932 1.53265,-1.27239 0.85648,-0.424129 1.74902,-0.424129 2.02851,0 2.95712,0.901276 v 4.152938 q -1.0999,-1.555143 -2.8309,-1.555143 -0.47782,0 -0.95565,0.17672 -0.46882,0.176721 -0.84748,0.583179 -0.36963,0.406458 -0.60403,1.042653 -0.23441,0.636194 -0.23441,1.53747 0,0.84826 0.18031,1.466783 0.18031,0.618523 0.5229,1.131013 0.35161,0.51249 0.84747,1.007308 0.50489,0.477146 1.16302,1.042653 0.67617,0.689212 1.27119,1.44911 0.60405,0.759899 1.05485,1.678849 0.45979,0.918947 0.72123,2.049961 0.27045,1.113341 0.27045,2.544778 0,1.926258 -0.39667,3.251664 -0.39669,1.325404 -1.07286,2.155993 -0.66715,0.830588 -1.54165,1.201701 -0.87452,0.371114 -1.84822,0.371114 -0.32455,0 -0.80237,-0.106029 -0.46882,-0.08836 -0.96469,-0.282754 -0.49586,-0.176732 -0.93762,-0.441803 -0.44175,-0.265082 -0.71223,-0.600851 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path857"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 153.75921,36.754152 q -2.79485,0 -4.48077,-3.552088 -1.67688,-3.552087 -1.67688,-9.242496 0,-6.11454 1.71295,-9.754988 1.71298,-3.640448 4.65207,-3.640448 2.7227,0 4.38157,3.534415 1.66788,3.534416 1.66788,9.242498 0,6.202899 -1.70395,9.808003 -1.70393,3.605104 -4.55287,3.605104 z m 0.0992,-22.496556 q -1.77607,0 -2.89401,2.597796 -1.1089,2.597796 -1.1089,6.839094 0,4.223627 1.08187,6.80375 1.08188,2.580125 2.83089,2.580125 1.85722,0 2.93007,-2.456419 1.07286,-2.456419 1.07286,-6.874439 0,-4.541724 -1.04581,-7.015816 -1.03679,-2.474091 -2.86697,-2.474091 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path855"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 139.80306,36.754152 q -2.79484,0 -4.48076,-3.552088 -1.67691,-3.552087 -1.67691,-9.242496 0,-6.11454 1.71297,-9.754988 1.71298,-3.640448 4.65205,-3.640448 2.72272,0 4.3816,3.534415 1.66788,3.534416 1.66788,9.242498 0,6.202899 -1.70395,9.808003 -1.70395,3.605104 -4.55288,3.605104 z m 0.0992,-22.496556 q -1.77607,0 -2.89401,2.597796 -1.10892,2.597796 -1.10892,6.839094 0,4.223627 1.08188,6.80375 1.08186,2.580125 2.8309,2.580125 1.85721,0 2.93006,-2.456419 1.07286,-2.456419 1.07286,-6.874439 0,-4.541724 -1.0458,-7.015816 -1.0368,-2.474091 -2.86697,-2.474091 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path853"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 132.78892,36.330022 h -7.15841 V 10.988261 h 2.14573 v 21.789674 h 5.01268 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path851"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 117.37223,36.330022 h -2.20882 V 10.988261 h 2.20882 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path849"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 112.87344,36.330022 h -7.25757 V 10.988261 h 6.96907 v 3.56976 h -4.82335 v 7.174864 h 4.44468 v 3.552088 h -4.44468 v 7.492962 h 5.11185 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path847"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 102.42436,36.330022 h -2.15474 V 25.33799 H 94.184083 V 36.330022 H 92.038367 V 10.988261 h 2.145716 v 10.656264 h 6.085537 V 10.988261 h 2.15474 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path845"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 90.262297,36.330022 h -2.353073 l -1.163013,-6.450307 h -5.084803 l -1.117935,6.450307 h -2.344058 l 4.841381,-25.341761 h 2.416182 z m -4.08407,-9.878691 -1.794106,-10.10843 q -0.08115,-0.494818 -0.171295,-1.590487 h -0.03606 q -0.08114,1.007309 -0.180312,1.590487 l -1.776074,10.10843 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path843"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M 78.136304,36.330022 H 75.629965 L 73.56539,29.543944 q -0.279483,-0.936619 -0.54995,-1.590488 -0.261454,-0.671539 -0.540938,-1.095667 -0.270469,-0.424131 -0.59503,-0.618524 -0.324561,-0.194396 -0.730264,-0.194396 H 70.28371 V 36.330018 H 68.147011 V 10.988261 h 4.255366 q 0.910577,0 1.676904,0.424131 0.766326,0.424129 1.334309,1.290061 0.567982,0.84826 0.88353,2.138322 0.324562,1.272389 0.324562,2.986581 0,1.343078 -0.207359,2.474091 -0.198344,1.113342 -0.576999,1.996945 -0.369639,0.865931 -0.901561,1.484454 -0.522905,0.618523 -1.181044,0.954294 v 0.07068 q 0.351608,0.388785 0.613061,0.865932 0.261454,0.459474 0.495858,0.954292 0.234407,0.494819 0.459796,1.131014 0.234407,0.618522 0.51389,1.44911 z M 70.28371,14.398973 v 8.235188 h 1.785089 q 0.49586,0 0.910578,-0.300425 0.423733,-0.300426 0.730264,-0.865932 0.30653,-0.565506 0.477828,-1.378422 0.171294,-0.812916 0.171294,-1.820224 0,-1.820224 -0.586013,-2.845204 -0.586014,-1.024981 -1.685918,-1.024981 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path841"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "m 59.519077,36.754152 q -2.794839,0 -4.480756,-3.552088 -1.676904,-3.552087 -1.676904,-9.242496 0,-6.11454 1.712966,-9.754988 1.712964,-3.640448 4.652052,-3.640448 2.722714,0 4.381586,3.534415 1.667887,3.534416 1.667887,9.242498 0,6.202899 -1.70395,9.808003 -1.703949,3.605104 -4.552881,3.605104 z m 0.09917,-22.496556 q -1.776074,0 -2.894009,2.597796 -1.10892,2.597796 -1.10892,6.839094 0,4.223627 1.081872,6.80375 1.081873,2.580125 2.830901,2.580125 1.857215,0 2.930073,-2.456419 1.072856,-2.456419 1.072856,-6.874439 0,-4.541724 -1.045811,-7.015816 -1.036794,-2.474091 -2.866962,-2.474091 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    strokeWidth: '1.49138',
-    fill: '#479454',
-    fillOpacity: 1
-  },
-  id: "path839"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  d: "M 40.946928,36.330022 V 10.988261 h 3.73246 q 7.149377,0 7.149377,12.352784 0,5.86713 -1.983434,9.43689 -1.983434,3.552087 -5.319208,3.552087 z m 2.136697,-21.772001 v 18.219914 h 1.712966 q 2.262918,0 3.516087,-2.438748 1.262183,-2.438745 1.262183,-6.89211 0,-8.889056 -4.697129,-8.889056 z",
-  style: {
-    fontWeight: 'bold',
-    InkscapeFontSpecification: '"Yu Gothic UI Bold"',
-    textAlign: 'center',
-    textAnchor: 'middle',
-    display: 'inline',
-    fill: '#479454',
-    fillOpacity: 1,
-    strokeWidth: '1.49138'
-  },
-  id: "path837"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  style: {
-    display: 'inline',
-    fill: '#479454'
-  },
-  id: "path12023",
-  d: "m 9.2704228,24.863288 c -0.1283697,-1.346534 0.032082,-2.667304 0.3471438,-3.974312 0.5121994,-1.590772 1.4538304,-3.010371 2.3453344,-4.412106 0.410464,-0.561902 1.041212,-1.863355 1.711463,-2.160368 0.09564,-0.04238 0.207239,-0.02868 0.310858,-0.04302 -6.3746886,0.151942 -3.683057,-0.442835 -2.609041,0.409974 0.544454,0.432318 0.994787,1.012124 1.441244,1.537718 0.926964,1.089324 1.630438,2.321342 2.045961,3.687505 0.23717,0.960859 0.232892,1.956465 0.227966,2.939656 -0.0033,0.724548 -0.02012,1.448934 -0.02951,2.173413 0,0 3.726698,0.0028 3.726698,0.0028 v 0 c 0.0016,-0.725921 0.0046,-1.451839 0.0055,-2.177762 -0.01335,-1.019361 -0.0097,-2.051702 -0.243388,-3.049715 -0.449091,-1.40516 -1.170863,-2.679689 -2.102653,-3.826039 -0.441907,-0.555954 -0.892716,-1.128312 -1.397826,-1.630085 -0.02602,-0.02585 -0.637102,-0.576564 -0.754644,-0.581281 -1.33367,-0.05352 -2.669212,0.03832 -4.003818,0.05748 -0.9382131,0.534159 -1.3930949,1.585479 -1.9634628,2.457135 -0.8836246,1.451287 -1.8526577,2.900462 -2.368653,4.529705 -0.3100457,1.336406 -0.4257502,2.687386 -0.4246199,4.059261 0,0 3.7354565,0 3.7354565,0 z"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  style: {
-    display: 'inline',
-    fill: '#479454'
-  },
-  id: "path12025",
-  d: "m 25.659349,23.509754 c -0.01417,-0.843918 -0.09119,-1.710453 0.06706,-2.547148 0.119717,-0.633 0.25454,-0.868233 0.500711,-1.45242 0.574525,-1.262271 1.564327,-2.208499 2.557085,-3.141862 0.216836,-0.185056 0.73133,-0.644467 0.994641,-0.794201 0.14728,-0.08375 0.315386,-0.123919 0.473079,-0.185878 -1.029055,0.04869 -2.071643,-0.02726 -3.087166,0.146054 -0.221286,0.03777 0.433184,0.14337 0.614308,0.275988 0.243533,0.178313 0.425961,0.427753 0.638941,0.641629 0.199504,0.300116 0.409457,0.593542 0.598512,0.900348 0.08709,0.141339 1.154754,2.018853 1.225845,2.139407 0.583949,0.990237 1.203315,1.959551 1.794406,2.945592 0.543056,0.914286 1.04153,1.861357 1.235267,2.914219 0,0 3.72119,-0.06988 3.72119,-0.06988 v 0 C 36.776433,24.172554 36.235486,23.186449 35.632682,22.238996 35.019333,21.263813 34.383809,20.300183 33.79865,19.307628 32.881313,17.751627 33.480865,18.694934 32.598791,17.15051 32.413806,16.826618 32.215664,16.51042 32.0241,16.190375 c -0.184077,-0.232713 -0.763221,-1.129059 -1.216211,-1.171 -3.646959,-0.337667 -3.75892,-0.684097 -5.668422,1.053245 -1.012305,0.977468 -2.015106,1.966352 -2.554392,3.29747 -0.231073,0.594292 -0.387128,0.918657 -0.508918,1.555369 -0.162416,0.849096 -0.08796,1.727118 -0.146751,2.584296 0,0 3.729947,0 3.729947,0 z"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  style: {
-    display: 'inline',
-    fill: '#479454'
-  },
-  id: "path12027",
-  d: "m 11.284773,32.607974 c 0.919617,1.123625 1.901057,2.192984 2.884706,3.26028 1.319998,1.483066 2.431133,1.641484 4.33761,1.713538 2.661935,-0.06473 6.259968,0.159714 8.867877,-1.049928 0.282177,-0.130884 0.543746,-0.302255 0.815619,-0.453383 1.308022,-0.954217 2.427204,-2.132466 3.260278,-3.519535 0.353389,-0.757898 0.199113,-0.375293 0.465719,-1.146644 0,0 -3.675467,-0.124286 -3.675467,-0.124286 v 0 c -0.257695,0.720192 -0.108543,0.363111 -0.450458,1.069984 -0.823793,1.324441 -1.88789,2.469892 -3.198955,3.329209 -0.26711,0.134869 -0.525559,0.288473 -0.80133,0.404608 -0.945379,0.398128 -1.990919,0.594038 -3.001477,0.734067 -0.385883,0.05347 -1.546986,0.06417 -1.162083,0.12429 0.80447,0.125655 1.627669,0.05037 2.441503,0.07555 -1.758192,-0.0096 -3.016382,-0.06205 -4.275179,-1.429388 -0.976914,-1.04164 -1.951518,-2.092737 -2.788983,-3.252369 0,0 -3.71938,0.264007 -3.71938,0.264007 z"
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("path", {
-  style: {
-    display: 'inline',
-    fill: '#479454'
-  },
-  id: "path12029",
-  d: "m 15.816688,32.811588 c 1.028094,-0.0042 2.056199,-0.0061 3.084302,-0.0057 0.898946,-0.007 1.816616,-0.06378 2.698137,-0.252133 0.857821,-0.125037 1.713412,-0.260569 2.570825,-0.391963 0.780666,-0.07684 1.555586,-0.184987 2.333864,-0.283559 0.913684,-0.112765 1.83598,-0.114547 2.75508,-0.125348 0.545289,-0.005 1.090601,-0.005 1.635906,-0.005 0,0 -3.648552,-0.576983 -3.648552,-0.576983 v 0 c -0.539509,0.0026 -1.079021,0.0052 -1.6185,0.01183 -0.932828,0.0137 -1.868358,0.02679 -2.79327,0.16296 -0.777535,0.103939 -1.558247,0.177523 -2.333967,0.293896 -0.859748,0.140621 -1.723554,0.25004 -2.581892,0.398149 -0.874162,0.127022 -1.756432,0.216915 -2.641032,0.194299 -1.051939,4.29e-4 -2.103879,-0.0016 -3.155809,-0.0057 0,0 3.694908,0.585216 3.694908,0.585216 z"
-})))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("nav", {
-  className: "nav"
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("ul", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: `/`
-}, "TOP")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: `/about/`
-}, "ABOUT")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("li", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(gatsby__WEBPACK_IMPORTED_MODULE_1__.Link, {
-  to: `/blog/`
-}, "BLOG"))))));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);
-
-/***/ }),
-
-/***/ "./src/components/layout.js":
-/*!**********************************!*\
-  !*** ./src/components/layout.js ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/header */ "./src/components/header.js");
-/* harmony import */ var _components_footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/footer */ "./src/components/footer.js");
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./layout.css */ "./src/components/layout.css");
-/* harmony import */ var _layout_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_layout_css__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css");
-/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ "./node_modules/@fortawesome/fontawesome-svg-core/index.es.js");
-
-
-
-
-
-
-_fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_5__.config.autoAddCss = false;
-
-const Layout = ({
-  children
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_header__WEBPACK_IMPORTED_MODULE_1__["default"], null), children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_footer__WEBPACK_IMPORTED_MODULE_2__["default"], null));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Layout);
-
-/***/ }),
-
-/***/ "./src/components/seo.js":
-/*!*******************************!*\
-  !*** ./src/components/seo.js ***!
-  \*******************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var _public_page_data_sq_d_509033975_json__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../public/page-data/sq/d/509033975.json */ "./public/page-data/sq/d/509033975.json");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_helmet__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-helmet */ "./node_modules/react-helmet/es/Helmet.js");
-
-
-
-
-const Seo = props => {
-  const data = _public_page_data_sq_d_509033975_json__WEBPACK_IMPORTED_MODULE_0__.data;
-  const title = props.pagetitle ? `${props.pagetitle} | ${data.site.siteMetadata.title}` : data.site.siteMetadata.title;
-  const description = props.pagedesc || data.site.siteMetadata.description;
-  const url = props.pagepath ? `${data.site.siteMetadata.siteUrl}${props.pagepath}` : data.site.siteMetadata.siteUrl;
-  const imgurl = props.pageimg ? `${data.site.siteMetadata.siteUrl}${props.pageimg}` : props.blogimg || `${data.site.siteMetadata.siteUrl}/thumb.jpg`;
-  const imgw = props.pageimgw || 1280;
-  const imgh = props.pageimgh || 640;
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement(react_helmet__WEBPACK_IMPORTED_MODULE_2__.Helmet, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("html", {
-    lang: data.site.siteMetadata.lang
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("title", null, title), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    name: "description",
-    content: description
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("link", {
-    rel: "canonical",
-    href: url
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:site_name",
-    content: data.site.siteMetadata.title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:title",
-    content: title
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:description",
-    content: description
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:url",
-    content: url
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:type",
-    content: "website"
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:locale",
-    content: data.site.siteMetadata.locale
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "fb:app_id",
-    content: data.site.siteMetadata.fbappid
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:image",
-    content: imgurl
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:image:width",
-    content: imgw
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    property: "og:image:height",
-    content: imgh
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default().createElement("meta", {
-    name: "twitter:card",
-    content: "summary_large_image"
-  }));
-};
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Seo);
-
-/***/ }),
-
-/***/ "./src/pages/404.js":
-/*!**************************!*\
-  !*** ./src/pages/404.js ***!
-  \**************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/layout */ "./src/components/layout.js");
-/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/seo */ "./src/components/seo.js");
-
-
-
-
-const NotFound = ({
-  location
-}) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  pagetitle: "\u30DA\u30FC\u30B8\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093",
-  pagepath: location.pathname
-}), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1", {
-  style: {
-    padding: "20vh 0",
-    textAlign: "center"
-  }
-}, "\u304A\u63A2\u3057\u306E\u30DA\u30FC\u30B8\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F"));
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFound);
-
-/***/ }),
-
-/***/ "./node_modules/@fortawesome/fontawesome-svg-core/styles.css":
-/*!*******************************************************************!*\
-  !*** ./node_modules/@fortawesome/fontawesome-svg-core/styles.css ***!
-  \*******************************************************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./src/components/layout.css":
-/*!***********************************!*\
-  !*** ./src/components/layout.css ***!
-  \***********************************/
-/***/ (() => {
-
-
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/3354381539.json":
-/*!***********************************************!*\
-  !*** ./public/page-data/sq/d/3354381539.json ***!
-  \***********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"pattern":{"childImageSharp":{"gatsbyImageData":{"layout":"fullWidth","backgroundColor":"#185828","images":{"fallback":{"src":"/static/d29f6f84e181ec59d7a3ca088acd9ec3/9d72c/pattern_edited.jpg","srcSet":"/static/d29f6f84e181ec59d7a3ca088acd9ec3/7f4ee/pattern_edited.jpg 750w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/7f2f2/pattern_edited.jpg 1080w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/3c6f8/pattern_edited.jpg 1366w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/9d72c/pattern_edited.jpg 1920w","sizes":"100vw"},"sources":[{"srcSet":"/static/d29f6f84e181ec59d7a3ca088acd9ec3/a6295/pattern_edited.webp 750w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/7ba6e/pattern_edited.webp 1080w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/955fe/pattern_edited.webp 1366w,\\n/static/d29f6f84e181ec59d7a3ca088acd9ec3/89314/pattern_edited.webp 1920w","type":"image/webp","sizes":"100vw"}]},"width":1,"height":0.5625}}}}}');
-
-/***/ }),
-
-/***/ "./public/page-data/sq/d/509033975.json":
-/*!**********************************************!*\
-  !*** ./public/page-data/sq/d/509033975.json ***!
-  \**********************************************/
-/***/ ((module) => {
-
-"use strict";
-module.exports = JSON.parse('{"data":{"site":{"siteMetadata":{"title":"DORAHEI LOOSE LIFE","lang":"ja","description":" うつ病の闘病記と社会復帰のブログ","siteUrl":"https://dorahei.com.netlify.app","locale":"ja_JP","fbappid":"XXXXXXXXXXXXXXXXXXXXX"}}}}');
+/* harmony import */ var _components_layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2522);
+/* harmony import */ var _components_seo__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6179);
+const NotFound=({location})=>/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_layout__WEBPACK_IMPORTED_MODULE_1__/* ["default"] */ .Z,null,/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_components_seo__WEBPACK_IMPORTED_MODULE_2__/* ["default"] */ .Z,{pagetitle:"\u30DA\u30FC\u30B8\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093",pagepath:location.pathname}),/*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("h1",{style:{padding:"20vh 0",textAlign:"center"}},"\u304A\u63A2\u3057\u306E\u30DA\u30FC\u30B8\u304C\u898B\u3064\u304B\u308A\u307E\u305B\u3093\u3067\u3057\u305F"));/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NotFound);
 
 /***/ })
 
