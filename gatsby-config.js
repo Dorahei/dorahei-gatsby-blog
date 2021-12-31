@@ -51,12 +51,27 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+         plugins: [
+          {
+            resolve: "gatsby-remark-embed-youtube",
+            options: {
+              width: 800,
+              height: 400
+            }
+          }
+        ]
+      },
+    },
+    `gatsby-plugin-twitter`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `DORAHEI |ドラヘイの生活`,
-        short_name: `DORAHEI`,
+        name: `DORAHEI LOOSE LIFE | ドラヘイの生活`,
+        short_name: `DORAHEI | ドラヘイの生活`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#479454`,
@@ -72,7 +87,7 @@ module.exports = {
         host: env.CONTENTFUL_HOST,
       },
     },
-    `gatsby-plugin-gatsby-cloud`
+    `gatsby-plugin-gatsby-cloud`,
     // `gatsby-plugin-offline`,
   ],
 }

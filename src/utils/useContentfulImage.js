@@ -8,7 +8,7 @@ export default assetUrl => {
           file {
             url
           }
-          gatsbyImageData(layout: CONSTRAINED)
+          gatsbyImageData(layout: FULL_WIDTH)
         }
       }
     }

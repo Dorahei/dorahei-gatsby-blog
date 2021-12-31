@@ -85,6 +85,9 @@ const BlogpostTemp = ({ data, pageContext, location }) => (
         <div className="postbody">
           {renderRichText(data.contentfulBlogPost.content, options)}
         </div>
+        <div className="postMD_body">
+          <div dangerouslySetInnerHTML={{__html:data.contentfulBlogPost.childContentfulBlogPostMarkdownBodyTextNode.childMarkdownRemark.html }} />
+        </div>
         <ul className="postlink">
           {pageContext.next && (
             <li className="prev">
@@ -135,6 +138,11 @@ export const query = graphql`
       content {
         raw
       }
+      childContentfulBlogPostMarkdownBodyTextNode {
+        childMarkdownRemark {
+         html
+        }
+      }
     }
   }
 `
@@ -156,3 +164,8 @@ export default BlogpostTemp
 //       }
 //     }
 //   }
+
+
+// markdown_body {
+//         markdown_body
+//       }

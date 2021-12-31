@@ -17,7 +17,11 @@ var plugins = [{
     },{
       name: 'gatsby-plugin-manifest',
       plugin: require('D:/Study_prog/gatsby/dorahei-gatsby-blog/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"DORAHEI |ドラヘイの生活","short_name":"DORAHEI","start_url":"/","background_color":"#ffffff","theme_color":"#479454","display":"standalone","icon":"src/images/Dorahei_icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"705fa2d7831fe5e391029352bd987437"},
+      options: {"plugins":[],"name":"DORAHEI LOOSE LIFE | ドラヘイの生活","short_name":"DORAHEI | ドラヘイの生活","start_url":"/","background_color":"#ffffff","theme_color":"#479454","display":"standalone","icon":"src/images/Dorahei_icon.png","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"705fa2d7831fe5e391029352bd987437"},
+    },{
+      name: 'gatsby-plugin-gatsby-cloud',
+      plugin: require('D:/Study_prog/gatsby/dorahei-gatsby-blog/node_modules/gatsby-plugin-gatsby-cloud/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 /* global plugins */
 // During bootstrap, we write requires at top of this file which looks like:

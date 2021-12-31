@@ -1,4 +1,4 @@
-### Type definitions saved at 2021-12-28T07:29:06.738Z ###
+### Type definitions saved at 2021-12-31T07:26:47.684Z ###
 
 type File implements Node @dontInfer {
   sourceInstanceName: String!
@@ -448,6 +448,39 @@ type ImageSharp implements Node @childOf(types: ["File"]) @dontInfer {
   resize(width: Int, height: Int, quality: Int, jpegQuality: Int, pngQuality: Int, webpQuality: Int, jpegProgressive: Boolean = true, pngCompressionLevel: Int = 9, pngCompressionSpeed: Int = 4, grayscale: Boolean = false, duotone: DuotoneGradient, base64: Boolean = false, traceSVG: Potrace, toFormat: ImageFormat = AUTO, cropFocus: ImageCropFocus = ATTENTION, fit: ImageFit = COVER, background: String = "rgba(0,0,0,1)", rotate: Int = 0, trim: Float = 0): ImageSharpResize
 }
 
+type MarkdownHeading {
+  id: String
+  value: String
+  depth: Int
+}
+
+enum MarkdownHeadingLevels {
+  h1
+  h2
+  h3
+  h4
+  h5
+  h6
+}
+
+enum MarkdownExcerptFormats {
+  PLAIN
+  HTML
+  MARKDOWN
+}
+
+type MarkdownWordCount {
+  paragraphs: Int
+  sentences: Int
+  words: Int
+}
+
+type MarkdownRemark implements Node @childOf(mimeTypes: ["text/markdown", "text/x-markdown"], types: ["contentfulBlogPostMarkdownBodyTextNode", "contentfulBlogPostDescriptionTextNode"]) @derivedTypes @dontInfer {
+  frontmatter: MarkdownRemarkFrontmatter
+  excerpt: String
+  rawMarkdownBody: String
+}
+
 interface ContentfulEntry implements Node {
   contentful_id: String!
   id: ID!
@@ -480,11 +513,13 @@ type ContentfulBlogPost implements ContentfulReference & ContentfulEntry & Node 
   content: ContentfulBlogPostContent
   eyecatch: ContentfulAsset @link(by: "id", from: "eyecatch___NODE")
   category: [ContentfulCategory] @link(by: "id", from: "category___NODE")
+  author: ContentfulPerson @link(by: "id", from: "author___NODE")
+  description: contentfulBlogPostDescriptionTextNode @link(by: "id", from: "description___NODE")
+  markdown_body: contentfulBlogPostMarkdownBodyTextNode @link(by: "id", from: "markdown_body___NODE")
   spaceId: String
   createdAt: Date @dateformat
   updatedAt: Date @dateformat
   sys: ContentfulBlogPostSys
-  author: ContentfulPerson @link(by: "id", from: "author___NODE")
 }
 
 type ContentfulCategory implements ContentfulReference & ContentfulEntry & Node @derivedTypes @dontInfer {
@@ -511,11 +546,33 @@ type ContentfulPerson implements ContentfulReference & ContentfulEntry & Node @d
   sys: ContentfulPersonSys
 }
 
+type contentfulBlogPostMarkdownBodyTextNode implements Node @derivedTypes @childOf(types: ["ContentfulBlogPost"]) @dontInfer {
+  markdown_body: String
+  sys: contentfulBlogPostMarkdownBodyTextNodeSys
+}
+
+type contentfulBlogPostDescriptionTextNode implements Node @derivedTypes @childOf(types: ["ContentfulBlogPost"]) @dontInfer {
+  description: String
+  sys: contentfulBlogPostDescriptionTextNodeSys
+}
+
 type ContentfulContentType implements Node @derivedTypes @dontInfer {
   name: String
   displayField: String
   description: String
   sys: ContentfulContentTypeSys
+}
+
+type contentfulBlogPostMarkdownBodyTextNodeSys {
+  type: String
+}
+
+type contentfulBlogPostDescriptionTextNodeSys {
+  type: String
+}
+
+type MarkdownRemarkFrontmatter {
+  title: String
 }
 
 type ContentfulPersonSys @derivedTypes {
